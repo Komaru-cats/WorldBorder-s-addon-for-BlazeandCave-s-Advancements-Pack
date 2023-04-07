@@ -1,0 +1,39 @@
+tellraw @a {"text":"IMPOSSIBLE!!!!!!!!!!!!!!!!!!","bold":true,"color":"red"}
+tellraw @a {"text":"IMPOSSIBLE!!!!!!!!!!!!!!!!!!","bold":true,"color":"red"}
+tellraw @a {"text":"IMPOSSIBLE!!!!!!!!!!!!!!!!!!","bold":true,"color":"red"}
+tellraw @a {"text":"IMPOSSIBLE!!!!!!!!!!!!!!!!!!","bold":true,"color":"red"}
+tellraw @a {"text":"IMPOSSIBLE!!!!!!!!!!!!!!!!!!","bold":true,"color":"red"}
+tellraw @a {"text":"IMPOSSIBLE!!!!!!!!!!!!!!!!!!","bold":true,"color":"red"}
+tellraw @a {"text":"IMPOSSIBLE!!!!!!!!!!!!!!!!!!","bold":true,"color":"red"}
+tellraw @a {"text":"IMPOSSIBLE!!!!!!!!!!!!!!!!!!","bold":true,"color":"red"}
+tellraw @a {"text":"IMPOSSIBLE!!!!!!!!!!!!!!!!!!","bold":true,"color":"red"}
+tellraw @a {"text":"IMPOSSIBLE!!!!!!!!!!!!!!!!!!","bold":true,"color":"red"}
+tellraw @a {"text":"IMPOSSIBLE!!!!!!!!!!!!!!!!!!","bold":true,"color":"red"}
+tellraw @a {"text":"IMPOSSIBLE!!!!!!!!!!!!!!!!!!","bold":true,"color":"red"}
+tellraw @a {"text":"IMPOSSIBLE!!!!!!!!!!!!!!!!!!","bold":true,"color":"red"}
+tellraw @a {"text":"IMPOSSIBLE!!!!!!!!!!!!!!!!!!","bold":true,"color":"red"}
+tellraw @a {"text":"IMPOSSIBLE!!!!!!!!!!!!!!!!!!","bold":true,"color":"red"}
+tellraw @a {"text":"IMPOSSIBLE!!!!!!!!!!!!!!!!!!","bold":true,"color":"red"}
+tellraw @a {"text":"IMPOSSIBLE!!!!!!!!!!!!!!!!!!","bold":true,"color":"red"}
+tellraw @a {"text":"IMPOSSIBLE!!!!!!!!!!!!!!!!!!","bold":true,"color":"red"}
+tellraw @a {"text":"IMPOSSIBLE!!!!!!!!!!!!!!!!!!","bold":true,"color":"red"}
+tellraw @a {"text":"IMPOSSIBLE!!!!!!!!!!!!!!!!!!","bold":true,"color":"red"}
+tellraw @a {"text":"IMPOSSIBLE!!!!!!!!!!!!!!!!!!","bold":true,"color":"red"}
+tellraw @a {"text":"IMPOSSIBLE!!!!!!!!!!!!!!!!!!","bold":true,"color":"red"}
+tellraw @a {"text":"IMPOSSIBLE!!!!!!!!!!!!!!!!!!","bold":true,"color":"red"}
+tellraw @a {"text":"IMPOSSIBLE!!!!!!!!!!!!!!!!!!","bold":true,"color":"red"}
+tellraw @a {"text":"IMPOSSIBLE!!!!!!!!!!!!!!!!!!","bold":true,"color":"red"}
+tellraw @a {"text":"IMPOSSIBLE!!!!!!!!!!!!!!!!!!","bold":true,"color":"red"}
+tellraw @a {"text":"IMPOSSIBLE!!!!!!!!!!!!!!!!!!","bold":true,"color":"red"}
+tellraw @a {"text":"IMPOSSIBLE!!!!!!!!!!!!!!!!!!","bold":true,"color":"red"}
+tellraw @a {"text":"IMPOSSIBLE!!!!!!!!!!!!!!!!!!","bold":true,"color":"red"}
+tellraw @a {"text":"IMPOSSIBLE!!!!!!!!!!!!!!!!!!","bold":true,"color":"red"}
+tellraw @a {"text":"IMPOSSIBLE!!!!!!!!!!!!!!!!!!","bold":true,"color":"red"}
+tellraw @a {"text":"IMPOSSIBLE!!!!!!!!!!!!!!!!!!","bold":true,"color":"red"}
+tellraw @a {"text":"IMPOSSIBLE!!!!!!!!!!!!!!!!!!","bold":true,"color":"red"}
+tellraw @a {"text":"IMPOSSIBLE!!!!!!!!!!!!!!!!!!","bold":true,"color":"red"}
+tellraw @a {"text":"IMPOSSIBLE!!!!!!!!!!!!!!!!!!","bold":true,"color":"red"}
+tellraw @a {"text":"IMPOSSIBLE!!!!!!!!!!!!!!!!!!","bold":true,"color":"red"}
+execute run scoreboard players set blazeandcave:challenges/farlander wb 1
+execute run scoreboard players set is_wb_run wb 0
+schedule function bc_wb:untask 5s

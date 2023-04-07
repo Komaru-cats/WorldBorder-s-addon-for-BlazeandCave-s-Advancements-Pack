@@ -1,0 +1,4 @@
+ 5
+execute run scoreboard players set minecraft:husbandry/tame_an_animal wb 1 5
+execute run scoreboard players set is_wb_run wb 0 5
+schedule function bc_wb:untask 5s
