@@ -18,16 +18,16 @@ The more difficult the achievement, the more blocks it will expand the world
 
 ## Installing for singleplayer or vanilla(not-bukkit) server
 - ### Download and install datapack in the world
-  - Use vanilla-version
+  - Use vanilla-version of datapack
   - For a new world: You can click the "Data Packs" option when creating a new world and select this datapack.
-  - For an existing world: Paste it into World name/datapacks.
-    - Reload world
+  - For an existing world: Paste it into world folder - (world-name)/datapacks.
+  - Restart world
 
-## Installing for bukkit server (peper)
+## Installing for bukkit/spigot/paper/(other fork) servers
 - ### Download and install datapack in the world
-  - Use bukkit-version
-  - Paste it into World name/datapacks.
-  - Reload/start server
+  - Use bukkit-version of datapack
+  - Paste it into world folder - (world-name)/datapacks.
+  - Restart server
 
 ## Warning: the World Border of the world will become 1 block and the players will be teleported
 
