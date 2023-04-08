@@ -12,6 +12,7 @@
 
 
 WorldBorder's addon is a datapack for [BACAP](https://modrinth.com/datapack/blazeandcaves-advancements-pack) that set WorldSize to 1 block and if you get advancements the world expand
+
 The more difficult the achievement, the more blocks it will expand the world
 
 
@@ -20,16 +21,15 @@ The more difficult the achievement, the more blocks it will expand the world
   - Use vanilla-version
   - For a new world: You can click the "Data Packs" option when creating a new world and select this datapack.
   - For an existing world: Paste it into World name/datapacks.
-
+    - Reload world
 
 ## Installing for bukkit server (peper)
 - ### Download and install datapack in the world
   - Use bukkit-version
   - Paste it into World name/datapacks.
+  - Reload/start server
 
-
-## When you are ready, click on the install button in the chat.
-  - ### Warning: the World Border of the world will become 1 block and the players will be teleported
+## Warning: the World Border of the world will become 1 block and the players will be teleported
 
 </p>
 If you have any questions, you can contact me at discord _Fedor_F#0001
