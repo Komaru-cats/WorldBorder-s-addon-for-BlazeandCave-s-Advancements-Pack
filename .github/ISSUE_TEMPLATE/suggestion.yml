@@ -1,5 +1,5 @@
 name: Suggestion
-description: Template for suggestions
+description: Form for suggestions
 title: '[Suggestion]: '
 labels:
   - enhancement
