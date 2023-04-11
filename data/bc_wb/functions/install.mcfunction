@@ -10,5 +10,7 @@ execute if score first_time wb matches 0 run function blazeandcave:config/exp_re
 execute if score first_time wb matches 0 run function blazeandcave:config/coop_on
 execute if score first_time wb matches 0 run scoreboard objectives add wb_play_time minecraft.custom:minecraft.play_time
 execute if score first_time wb matches 0 run function bc_wb:started/startmsgtimer
+execute run worldborder damage buffer 1
+execute run worldborder damage amount 1000
 execute run function bc_wb:main
 execute run scoreboard players set first_time wb 1
