@@ -1,0 +1,11 @@
+name: Question
+description: Template for questions
+title: '[Question]: '
+labels:
+  - question
+body:
+  - type: textarea
+    attributes:
+      label: Ask your question here
+      description: Ask only important questions!
+      placeholder: Write here
