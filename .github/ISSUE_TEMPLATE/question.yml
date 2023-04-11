@@ -1,5 +1,5 @@
 name: Question
-description: Template for questions
+description: Form for questions
 title: '[Question]: '
 labels:
   - question
