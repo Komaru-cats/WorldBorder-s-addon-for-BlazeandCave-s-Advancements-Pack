@@ -15,7 +15,7 @@ execute if score first_time wb matches 0 run function blazeandcave:config/coop_o
 execute if score first_time wb matches 0 run scoreboard objectives add wb_play_time minecraft.custom:minecraft.play_time
 execute if score first_time wb matches 0 run scoreboard objectives add wb_first dummy
 execute if score first_time wb matches 0 run scoreboard players set wb_global_1 wb_first 0
-execute if score first_time wb matches 0 run function bc_wb:started/startmsgtimer
+execute if score first_time wb matches 0 run schedule function bc_wb:started/startmsgtimer 1s
 execute in minecraft:overworld run worldborder damage buffer 1
 execute in minecraft:overworld run worldborder damage amount 1000
 execute in minecraft:the_nether run worldborder damage buffer 1
