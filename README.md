@@ -4,7 +4,6 @@
 [![GitHub license](https://img.shields.io/github/license/AdvancedXRay/Auto-Clicker-Fabric)](https://github.com/AdvancedXRay/Auto-Clicker-Fabric/blob/main/LICENSE)
 [![GitHub issues](https://img.shields.io/github/issues/IFedor-F/WorldBorder-s-addon-for-BlazeandCave-s-Advancements-Pack)](https://github.com/IFedor-F/WorldBorder-s-addon-for-BlazeandCave-s-Advancements-Pack/issues)
 ![GitHub all releases](https://img.shields.io/github/downloads/IFedor-F/WorldBorder-s-addon-for-BlazeandCave-s-Advancements-Pack/total)
-![GitHub all releases](https://img.shields.io/github/downloads/IFedor-F/WorldBorder-s-addon-for-BlazeandCave-s-Advancements-Pack/latest)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/IFedor-F/WorldBorder-s-addon-for-BlazeandCave-s-Advancements-Pack)
 ![GitHub Release Date](https://img.shields.io/github/release-date/IFedor-F/WorldBorder-s-addon-for-BlazeandCave-s-Advancements-Pack)
 ![GitHub last commit](https://img.shields.io/github/last-commit/IFedor-F/WorldBorder-s-addon-for-BlazeandCave-s-Advancements-Pack)
