@@ -1,4 +1,4 @@
-execute in minecraft:the_end run worldborder add 1000 5
+execute in minecraft:the_end run worldborder add 850 5
 
 execute run scoreboard players set blazeandcave:bacap/farming_milestone wb 1
 execute run scoreboard players set is_wb_run wb 0
