@@ -1,6 +1,5 @@
-BlazeandCave's Advancements Pack
-Version 1.15.3
-Minecraft 1.19.1, 1.19.2 or 1.19.3
+WorldBorder for BACAP Beta-1.3.1
+Minecraft 1.19.1, 1.19.2, 1.19.3 or 1.19.4
 Thank you for downloading this datapack!
 
 
@@ -16,8 +15,8 @@ Download and install datapack in the world
 
 Installing for bukkit server (peper)
 Download and install datapack in the world
-- Download and install datapack in the world
 - Use bukkit-version
+- Download and install datapack in the world
 - Paste it into World name/datapacks.
 
 If you have any questions, you can contact me at discord _Fedor_F#0001
