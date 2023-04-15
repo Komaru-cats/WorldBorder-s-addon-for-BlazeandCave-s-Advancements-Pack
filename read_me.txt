@@ -1,4 +1,4 @@
-WorldBorder for BACAP Beta-1.3.1
+WorldBorder for BACAP Beta-1.3.1 vanilla
 Minecraft 1.19.1, 1.19.2, 1.19.3 or 1.19.4
 Thank you for downloading this datapack!
 
@@ -14,10 +14,8 @@ Download and install datapack in the world
 
 
 Installing for bukkit server (peper)
-Download and install datapack in the world
-- Use bukkit-version
-- Download and install datapack in the world
-- Paste it into World name/datapacks.
+- Download bukkit-version!
+- Don't use this version for bukkit servers
 
 If you have any questions, you can contact me at discord _Fedor_F#0001
 Created by _Fedor_F, ItzSkyReed, Hogurt
