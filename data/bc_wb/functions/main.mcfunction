@@ -1119,5 +1119,51 @@ execute if score minecraft:husbandry/complete_catalogue bac_obtained >= wb_globa
 execute if score minecraft:story/root bac_obtained >= wb_global_1 wb unless score minecraft:story/root wb matches 1 if score is_wb_run wb matches 1 run function bc_wb:reward/bacap/benchmarking
 
 
+#1.20
+
+
+execute if score blazeandcave:adventure/archaeologist bac_obtained >= wb_global_1 wb unless score blazeandcave:adventure/archaeologist wb matches 1 if score is_wb_run wb matches 1 run function bc_wb:reward/adventure/archaeologist
+execute if score blazeandcave:adventure/brushed_away bac_obtained >= wb_global_1 wb unless score blazeandcave:adventure/brushed_away wb matches 1 if score is_wb_run wb matches 1 run function bc_wb:reward/adventure/brushed_away
+execute if score blazeandcave:adventure/chromatic_armory bac_obtained >= wb_global_1 wb unless score blazeandcave:adventure/chromatic_armory wb matches 1 if score is_wb_run wb matches 1 run function bc_wb:reward/adventure/chromatic_armory
+execute if score blazeandcave:adventure/coordinated_flair bac_obtained >= wb_global_1 wb unless score blazeandcave:adventure/coordinated_flair wb matches 1 if score is_wb_run wb matches 1 run function bc_wb:reward/adventure/coordinated_flair
+execute if score blazeandcave:adventure/designer_collection bac_obtained >= wb_global_1 wb unless score blazeandcave:adventure/designer_collection wb matches 1 if score is_wb_run wb matches 1 run function bc_wb:reward/adventure/designer_collection
+execute if score blazeandcave:adventure/genesis_of_the_end bac_obtained >= wb_global_1 wb unless score blazeandcave:adventure/genesis_of_the_end wb matches 1 if score is_wb_run wb matches 1 run function bc_wb:reward/adventure/genesis_of_the_end
+execute if score blazeandcave:adventure/good_lookin_treasure bac_obtained >= wb_global_1 wb unless score blazeandcave:adventure/good_lookin_treasure wb matches 1 if score is_wb_run wb matches 1 run function bc_wb:reward/adventure/good_lookin_treasure
+execute if score blazeandcave:adventure/happy_trails bac_obtained >= wb_global_1 wb unless score blazeandcave:adventure/happy_trails wb matches 1 if score is_wb_run wb matches 1 run function bc_wb:reward/adventure/happy_trails
+execute if score blazeandcave:adventure/jurassic_sniff bac_obtained >= wb_global_1 wb unless score blazeandcave:adventure/jurassic_sniff wb matches 1 if score is_wb_run wb matches 1 run function bc_wb:reward/adventure/jurassic_sniff
+execute if score blazeandcave:adventure/just_a_trim bac_obtained >= wb_global_1 wb unless score blazeandcave:adventure/just_a_trim wb matches 1 if score is_wb_run wb matches 1 run function bc_wb:reward/adventure/just_a_trim
+execute if score blazeandcave:adventure/life_uhh_finds_a_way bac_obtained >= wb_global_1 wb unless score blazeandcave:adventure/life_uhh_finds_a_way wb matches 1 if score is_wb_run wb matches 1 run function bc_wb:reward/adventure/life_uhh_finds_a_way
+execute if score blazeandcave:adventure/mold_maker bac_obtained >= wb_global_1 wb unless score blazeandcave:adventure/mold_maker wb matches 1 if score is_wb_run wb matches 1 run function bc_wb:reward/adventure/mold_maker
+execute if score blazeandcave:adventure/pottery_exhibition bac_obtained >= wb_global_1 wb unless score blazeandcave:adventure/pottery_exhibition wb matches 1 if score is_wb_run wb matches 1 run function bc_wb:reward/adventure/pottery_exhibition
+execute if score blazeandcave:adventure/raiders_of_the_lost_trim bac_obtained >= wb_global_1 wb unless score blazeandcave:adventure/raiders_of_the_lost_trim wb matches 1 if score is_wb_run wb matches 1 run function bc_wb:reward/adventure/raiders_of_the_lost_trim
+execute if score blazeandcave:adventure/stacked_smither bac_obtained >= wb_global_1 wb unless score blazeandcave:adventure/stacked_smither wb matches 1 if score is_wb_run wb matches 1 run function bc_wb:reward/adventure/stacked_smither
+execute if score blazeandcave:adventure/the_art_of_ceramics bac_obtained >= wb_global_1 wb unless score blazeandcave:adventure/the_art_of_ceramics wb matches 1 if score is_wb_run wb matches 1 run function bc_wb:reward/adventure/the_art_of_ceramics
+execute if score blazeandcave:adventure/the_sound_of_silence bac_obtained >= wb_global_1 wb unless score blazeandcave:adventure/the_sound_of_silence wb matches 1 if score is_wb_run wb matches 1 run function bc_wb:reward/adventure/the_sound_of_silence
+execute if score blazeandcave:adventure/truffle_worm bac_obtained >= wb_global_1 wb unless score blazeandcave:adventure/truffle_worm wb matches 1 if score is_wb_run wb matches 1 run function bc_wb:reward/adventure/truffle_worm
+execute if score blazeandcave:adventure/vexingly_hard_to_find bac_obtained >= wb_global_1 wb unless score blazeandcave:adventure/vexingly_hard_to_find wb matches 1 if score is_wb_run wb matches 1 run function bc_wb:reward/adventure/vexingly_hard_to_find
+execute if score blazeandcave:animal/desert_rider bac_obtained >= wb_global_1 wb unless score blazeandcave:animal/desert_rider wb matches 1 if score is_wb_run wb matches 1 run function bc_wb:reward/animal/desert_rider
+execute if score blazeandcave:animal/hump_day bac_obtained >= wb_global_1 wb unless score blazeandcave:animal/hump_day wb matches 1 if score is_wb_run wb matches 1 run function bc_wb:reward/animal/hump_day
+execute if score blazeandcave:animal/the_high_road bac_obtained >= wb_global_1 wb unless score blazeandcave:animal/the_high_road wb matches 1 if score is_wb_run wb matches 1 run function bc_wb:reward/animal/the_high_road
+execute if score blazeandcave:biomes/pretty_in_pink bac_obtained >= wb_global_1 wb unless score blazeandcave:biomes/pretty_in_pink wb matches 1 if score is_wb_run wb matches 1 run function bc_wb:reward/biomes/pretty_in_pink
+execute if score blazeandcave:building/bamboozled bac_obtained >= wb_global_1 wb unless score blazeandcave:building/bamboozled wb matches 1 if score is_wb_run wb matches 1 run function bc_wb:reward/building/bamboozled
+execute if score blazeandcave:building/cherry_bomb bac_obtained >= wb_global_1 wb unless score blazeandcave:building/cherry_bomb wb matches 1 if score is_wb_run wb matches 1 run function bc_wb:reward/building/cherry_bomb
+execute if score blazeandcave:building/hanging_around bac_obtained >= wb_global_1 wb unless score blazeandcave:building/hanging_around wb matches 1 if score is_wb_run wb matches 1 run function bc_wb:reward/building/hanging_around
+execute if score blazeandcave:building/help_ive_been_framed bac_obtained >= wb_global_1 wb unless score blazeandcave:building/help_ive_been_framed wb matches 1 if score is_wb_run wb matches 1 run function bc_wb:reward/building/help_ive_been_framed
+execute if score blazeandcave:building/shelf_expression bac_obtained >= wb_global_1 wb unless score blazeandcave:building/shelf_expression wb matches 1 if score is_wb_run wb matches 1 run function bc_wb:reward/building/shelf_expression
+execute if score blazeandcave:building/sign_off bac_obtained >= wb_global_1 wb unless score blazeandcave:building/sign_off wb matches 1 if score is_wb_run wb matches 1 run function bc_wb:reward/building/sign_off
+execute if score blazeandcave:challenges/poglin bac_obtained >= wb_global_1 wb unless score blazeandcave:challenges/poglin wb matches 1 if score is_wb_run wb matches 1 run function bc_wb:reward/challenges/poglin
+execute if score blazeandcave:mining/calibration_sensation bac_obtained >= wb_global_1 wb unless score blazeandcave:mining/calibration_sensation wb matches 1 if score is_wb_run wb matches 1 run function bc_wb:reward/mining/calibration_sensation
+execute if score blazeandcave:monsters/maximum_resistance bac_obtained >= wb_global_1 wb unless score blazeandcave:monsters/maximum_resistance wb matches 1 if score is_wb_run wb matches 1 run function bc_wb:reward/monsters/maximum_resistance
+execute if score blazeandcave:nether/piglin_peril bac_obtained >= wb_global_1 wb unless score blazeandcave:nether/piglin_peril wb matches 1 if score is_wb_run wb matches 1 run function bc_wb:reward/nether/piglin_peril
+execute if score blazeandcave:nether/time_to_upgrade bac_obtained >= wb_global_1 wb unless score blazeandcave:nether/time_to_upgrade wb matches 1 if score is_wb_run wb matches 1 run function bc_wb:reward/nether/time_to_upgrade
+execute if score blazeandcave:redstone/monstrous_music bac_obtained >= wb_global_1 wb unless score blazeandcave:redstone/monstrous_music wb matches 1 if score is_wb_run wb matches 1 run function bc_wb:reward/redstone/monstrous_music
+execute if score blazeandcave:statistics/food_glorious_food bac_obtained >= wb_global_1 wb unless score blazeandcave:statistics/food_glorious_food wb matches 1 if score is_wb_run wb matches 1 run function bc_wb:reward/statistics/food_glorious_food
+execute if score blazeandcave:statistics/giga_xp_grinder bac_obtained >= wb_global_1 wb unless score blazeandcave:statistics/giga_xp_grinder wb matches 1 if score is_wb_run wb matches 1 run function bc_wb:reward/statistics/giga_xp_grinder
+execute if score blazeandcave:statistics/i_heart_chests bac_obtained >= wb_global_1 wb unless score blazeandcave:statistics/i_heart_chests wb matches 1 if score is_wb_run wb matches 1 run function bc_wb:reward/statistics/i_heart_chests
+execute if score blazeandcave:statistics/loot_em bac_obtained >= wb_global_1 wb unless score blazeandcave:statistics/loot_em wb matches 1 if score is_wb_run wb matches 1 run function bc_wb:reward/statistics/loot_em
+execute if score blazeandcave:statistics/more_for_me bac_obtained >= wb_global_1 wb unless score blazeandcave:statistics/more_for_me wb matches 1 if score is_wb_run wb matches 1 run function bc_wb:reward/statistics/more_for_me
+execute if score blazeandcave:statistics/om_nom_nom bac_obtained >= wb_global_1 wb unless score blazeandcave:statistics/om_nom_nom wb matches 1 if score is_wb_run wb matches 1 run function bc_wb:reward/statistics/om_nom_nom
+execute if score blazeandcave:statistics/yum_yum_yummo bac_obtained >= wb_global_1 wb unless score blazeandcave:statistics/yum_yum_yummo wb matches 1 if score is_wb_run wb matches 1 run function bc_wb:reward/statistics/yum_yum_yummo
+
 
 schedule function bc_wb:main 1s
