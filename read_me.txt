@@ -5,6 +5,7 @@ Thank you for downloading this datapack!
 
 --- Installing ---
 
+Install BlazeandCave's Advancements Pack 1.19!
 
 Installing for singleplayer or vanilla(not-bukkit) server
 Download and install datapack in the world
