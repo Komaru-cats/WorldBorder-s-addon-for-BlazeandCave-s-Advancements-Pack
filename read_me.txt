@@ -5,11 +5,11 @@ Thank you for downloading this datapack!
 
 --- Installing ---
 
+Install BlazeandCave's Advancements Pack 1.19!
 
 Installing for bukkit server (peper)
-Download and install datapack in the world
-- Download and install datapack in the world
 - Use bukkit-version
+- Download datapack
 - Paste it into World name/datapacks.
 
 
