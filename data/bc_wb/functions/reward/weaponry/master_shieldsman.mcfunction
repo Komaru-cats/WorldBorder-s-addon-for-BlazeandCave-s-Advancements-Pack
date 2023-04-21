@@ -1,4 +1,4 @@
-execute in minecraft:the_end run worldborder add 29 5
+execute in minecraft:the_end run worldborder add 29.0 5
 
 execute run scoreboard players set blazeandcave:weaponry/master_shieldsman wb 1
 execute run scoreboard players set is_wb_run wb 0

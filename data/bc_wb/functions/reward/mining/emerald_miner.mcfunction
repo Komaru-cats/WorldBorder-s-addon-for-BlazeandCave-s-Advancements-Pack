@@ -1,5 +1,5 @@
-execute in minecraft:the_end run worldborder add 100 5
+execute in minecraft:the_end run worldborder add 100.0 9
 
 execute run scoreboard players set blazeandcave:mining/emerald_miner wb 1
 execute run scoreboard players set is_wb_run wb 0
-schedule function bc_wb:untask 5s
+schedule function bc_wb:untask 9s
