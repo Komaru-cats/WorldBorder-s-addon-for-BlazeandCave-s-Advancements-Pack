@@ -1165,5 +1165,8 @@ execute if score blazeandcave:statistics/more_for_me bac_obtained >= wb_global_1
 execute if score blazeandcave:statistics/om_nom_nom bac_obtained >= wb_global_1 wb unless score blazeandcave:statistics/om_nom_nom wb matches 1 if score is_wb_run wb matches 1 run function bc_wb:reward/statistics/om_nom_nom
 execute if score blazeandcave:statistics/yum_yum_yummo bac_obtained >= wb_global_1 wb unless score blazeandcave:statistics/yum_yum_yummo wb matches 1 if score is_wb_run wb matches 1 run function bc_wb:reward/statistics/yum_yum_yummo
 
-
+execute if score minecraft:husbandry/plant_any_sniffer_seed bac_obtained >= wb_global_1 wb unless score minecraft:husbandry/plant_any_sniffer_seed wb matches 1 if score is_wb_run wb matches 1 run function bc_wb:reward/adventure/planting_the_past
+execute if score minecraft:husbandry/feed_snifflet bac_obtained >= wb_global_1 wb unless score minecraft:husbandry/feed_snifflet wb matches 1 if score is_wb_run wb matches 1 run function bc_wb:reward/adventure/little_sniffs
+execute if score minecraft:adventure/read_power_of_chiseled_bookshelf bac_obtained >= wb_global_1 wb unless score minecraft:adventure/read_power_of_chiseled_bookshelf wb matches 1 if score is_wb_run wb matches 1 run function bc_wb:reward/redstone/the_power_of_books
+execute if score blazeandcave:adventure/a_chiptune_relic bac_obtained >= wb_global_1 wb unless score blazeandcave:adventure/a_chiptune_relic wb matches 1 if score is_wb_run wb matches 1 run function bc_wb:reward/adventure/a_chiptune_relic
 schedule function bc_wb:main 1s
