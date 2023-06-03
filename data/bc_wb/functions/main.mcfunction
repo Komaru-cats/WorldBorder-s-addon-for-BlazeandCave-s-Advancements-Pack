@@ -1023,8 +1023,8 @@ execute if score minecraft:husbandry/breed_an_animal bac_obtained >= wb_global_1
 execute if score minecraft:husbandry/make_a_sign_glow bac_obtained >= wb_global_1 wb unless score minecraft:husbandry/make_a_sign_glow wb matches 1 if score is_wb_run wb matches 1 run function bc_wb:reward/animal/glow_and_behold
 execute if score minecraft:adventure/spyglass_at_parrot bac_obtained >= wb_global_1 wb unless score minecraft:adventure/spyglass_at_parrot wb matches 1 if score is_wb_run wb matches 1 run function bc_wb:reward/animal/is_it_a_bird
 execute if score minecraft:husbandry/tame_an_animal bac_obtained >= wb_global_1 wb unless score minecraft:husbandry/tame_an_animal wb matches 1 if score is_wb_run wb matches 1 run function bc_wb:reward/animal/leader_of_the_pack
-execute if score minecraft:husbandry/silk_touch_nest bac_obtained >= wb_global_1 wb unless score minecraft:husbandry/silk_touch_nest wb matches 1 if score is_wb_run wb matches 1 run function bc_wb:reward/animal/hive_mind
-execute if score minecraft:adventure/honey_block_slide bac_obtained >= wb_global_1 wb unless score minecraft:adventure/honey_block_slide wb matches 1 if score is_wb_run wb matches 1 run function bc_wb:reward/animal/total_beelocation
+execute if score minecraft:adventure/honey_block_slide bac_obtained >= wb_global_1 wb unless score minecraft:adventure/honey_block_slide wb matches 1 if score is_wb_run wb matches 1 run function bc_wb:reward/animal/sticky_situation
+execute if score minecraft:husbandry/silk_touch_nest bac_obtained >= wb_global_1 wb unless score minecraft:husbandry/silk_touch_nest wb matches 1 if score is_wb_run wb matches 1 run function bc_wb:reward/animal/total_beelocation
 execute if score minecraft:husbandry/safely_harvest_honey bac_obtained >= wb_global_1 wb unless score minecraft:husbandry/safely_harvest_honey wb matches 1 if score is_wb_run wb matches 1 run function bc_wb:reward/animal/bee_our_guest
 execute if score minecraft:husbandry/kill_axolotl_target bac_obtained >= wb_global_1 wb unless score minecraft:husbandry/kill_axolotl_target wb matches 1 if score is_wb_run wb matches 1 run function bc_wb:reward/animal/the_healing_power_of_friendship
 execute if score minecraft:husbandry/axolotl_in_a_bucket bac_obtained >= wb_global_1 wb unless score minecraft:husbandry/axolotl_in_a_bucket wb matches 1 if score is_wb_run wb matches 1 run function bc_wb:reward/animal/the_cutest_predator
@@ -1164,9 +1164,9 @@ execute if score blazeandcave:statistics/loot_em bac_obtained >= wb_global_1 wb 
 execute if score blazeandcave:statistics/more_for_me bac_obtained >= wb_global_1 wb unless score blazeandcave:statistics/more_for_me wb matches 1 if score is_wb_run wb matches 1 run function bc_wb:reward/statistics/more_for_me
 execute if score blazeandcave:statistics/om_nom_nom bac_obtained >= wb_global_1 wb unless score blazeandcave:statistics/om_nom_nom wb matches 1 if score is_wb_run wb matches 1 run function bc_wb:reward/statistics/om_nom_nom
 execute if score blazeandcave:statistics/yum_yum_yummo bac_obtained >= wb_global_1 wb unless score blazeandcave:statistics/yum_yum_yummo wb matches 1 if score is_wb_run wb matches 1 run function bc_wb:reward/statistics/yum_yum_yummo
+
 execute if score minecraft:husbandry/plant_any_sniffer_seed bac_obtained >= wb_global_1 wb unless score minecraft:husbandry/plant_any_sniffer_seed wb matches 1 if score is_wb_run wb matches 1 run function bc_wb:reward/adventure/planting_the_past
 execute if score minecraft:husbandry/feed_snifflet bac_obtained >= wb_global_1 wb unless score minecraft:husbandry/feed_snifflet wb matches 1 if score is_wb_run wb matches 1 run function bc_wb:reward/adventure/little_sniffs
 execute if score minecraft:adventure/read_power_of_chiseled_bookshelf bac_obtained >= wb_global_1 wb unless score minecraft:adventure/read_power_of_chiseled_bookshelf wb matches 1 if score is_wb_run wb matches 1 run function bc_wb:reward/redstone/the_power_of_books
 execute if score blazeandcave:adventure/a_chiptune_relic bac_obtained >= wb_global_1 wb unless score blazeandcave:adventure/a_chiptune_relic wb matches 1 if score is_wb_run wb matches 1 run function bc_wb:reward/adventure/a_chiptune_relic
-
 schedule function bc_wb:main 1s
