@@ -1,0 +1,3 @@
+execute run worldborder add 2.0
+execute run scoreboard players set blazeandcave:monsters/creeper_killer wb 1
+tellraw @a {"text": " +1 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "Creeper Killer", "color": "#75E1FF"}, {"text": "\n"}, {"text": "Collect a stack of gunpowder", "color": "#63BDD7"}, {"text": "\n\n"}, {"text": "Monsters tab", "color": "gray", "italic": true}]}}

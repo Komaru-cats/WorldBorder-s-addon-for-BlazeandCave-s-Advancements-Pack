@@ -1,0 +1,3 @@
+execute run worldborder add 1.0
+execute run scoreboard players set blazeandcave:adventure/its_so_beast_like wb 1
+tellraw @a {"text": " +0.5 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "It's So Beast-Like!", "color": "#75E1FF"}, {"text": "\n"}, {"text": "Slay a Ravager in a raid", "color": "#63BDD7"}, {"text": "\n\n"}, {"text": "Adventure tab", "color": "gray", "italic": true}]}}

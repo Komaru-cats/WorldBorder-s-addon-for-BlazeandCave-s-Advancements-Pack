@@ -1,0 +1,3 @@
+execute run worldborder add 1.0
+execute run scoreboard players set blazeandcave:enchanting/let_it_go wb 1
+tellraw @a {"text": " +0.5 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "Let It Go!", "color": "#75E1FF"}, {"text": "\n"}, {"text": "Using Frost Walker boots, walk on frozen water over a deep ocean", "color": "#63BDD7"}, {"text": "\n\n"}, {"text": "Enchanting tab", "color": "gray", "italic": true}]}}

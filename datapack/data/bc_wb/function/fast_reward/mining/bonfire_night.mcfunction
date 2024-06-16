@@ -1,0 +1,3 @@
+execute run worldborder add 50.0
+execute run scoreboard players set blazeandcave:mining/bonfire_night wb 1
+tellraw @a {"text": " +25 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "Bonfire Night", "color": "dark_purple"}, {"text": "\n"}, {"text": "Light every flammable block on fire", "color": "#C900C7"}, {"text": "\n\n"}, {"text": "Mining tab", "color": "gray", "italic": true}]}}

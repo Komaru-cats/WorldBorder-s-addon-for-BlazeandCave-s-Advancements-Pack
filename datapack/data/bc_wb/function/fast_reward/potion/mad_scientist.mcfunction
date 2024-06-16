@@ -1,0 +1,3 @@
+execute run worldborder add 4.0
+execute run scoreboard players set blazeandcave:potion/mad_scientist wb 1
+tellraw @a {"text": " +2 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "Mad Scientist", "color": "dark_purple"}, {"text": "\n"}, {"text": "Cure a zombie villager of every profession", "color": "#C900C7"}, {"text": "\n\n"}, {"text": "Potion tab", "color": "gray", "italic": true}]}}

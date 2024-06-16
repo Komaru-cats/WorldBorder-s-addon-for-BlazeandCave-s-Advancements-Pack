@@ -1,0 +1,3 @@
+execute run worldborder add 1.0
+execute run scoreboard players set blazeandcave:mining/steals_on_wheels wb 1
+tellraw @a {"text": " +0.5 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "Steals on Wheels", "color": "green"}, {"text": "\n"}, {"text": "Loot a minecart chest from an Abandoned Mineshaft", "color": "#49DB49"}, {"text": "\n\n"}, {"text": "Mining tab", "color": "gray", "italic": true}]}}

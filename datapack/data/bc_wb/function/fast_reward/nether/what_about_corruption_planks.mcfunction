@@ -1,0 +1,3 @@
+execute run worldborder add 1.0
+execute run scoreboard players set blazeandcave:nether/what_about_corruption_planks wb 1
+tellraw @a {"text": " +0.5 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "What about Corruption Planks?", "color": "#75E1FF"}, {"text": "\n"}, {"text": "Craft every item made out of crimson wood", "color": "#63BDD7"}, {"text": "\n\n"}, {"text": "Nether tab", "color": "gray", "italic": true}]}}

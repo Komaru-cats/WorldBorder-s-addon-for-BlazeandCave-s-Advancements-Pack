@@ -1,0 +1,3 @@
+execute run worldborder add 70.0
+execute run scoreboard players set blazeandcave:animal/heavy_duty_caravan wb 1
+tellraw @a {"text": " +35 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "Heavy Duty Caravan", "color": "dark_purple"}, {"text": "\n"}, {"text": "Tame a llama with a strength of 5", "color": "#C900C7"}, {"text": "\n\n"}, {"text": "Animal tab", "color": "gray", "italic": true}]}}

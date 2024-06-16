@@ -1,0 +1,3 @@
+execute run worldborder add 100000.0
+execute run scoreboard players set blazeandcave:end/im_coming_back_murph wb 1
+tellraw @a {"text": " +50000 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "I'm Coming Back, Murph!", "color": "#75E1FF"}, {"text": "\n"}, {"text": "Travel far into the End dimension", "color": "#63BDD7"}, {"text": "\n\n"}, {"text": "End tab", "color": "gray", "italic": true}]}}

@@ -1,0 +1,3 @@
+execute run worldborder add 7.0
+execute run scoreboard players set blazeandcave:monsters/baby_baby_baby_noo wb 1
+tellraw @a {"text": " +3.5 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "Baby, baby, baby noo!!", "color": "#75E1FF"}, {"text": "\n"}, {"text": "Kill one of each of a baby zombie, zombie villager, husk, drowned and zombie pigman", "color": "#63BDD7"}, {"text": "\n\n"}, {"text": "Monsters tab", "color": "gray", "italic": true}]}}

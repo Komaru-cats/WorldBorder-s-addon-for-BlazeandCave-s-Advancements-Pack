@@ -1,0 +1,3 @@
+execute run worldborder add 1.4
+execute run scoreboard players set minecraft:adventure/crafters_crafting_crafters wb 1
+tellraw @a {"text": " +0.7 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "Crafters Crafting Crafters", "color": "#75E1FF"}, {"text": "\n"}, {"text": "Be near a Crafter when it crafts a Crafter", "color": "#63BDD7"}, {"text": "\n\n"}, {"text": "Redstone tab", "color": "gray", "italic": true}]}}

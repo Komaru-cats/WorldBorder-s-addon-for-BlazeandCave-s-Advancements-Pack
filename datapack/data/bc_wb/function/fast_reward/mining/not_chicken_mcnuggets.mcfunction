@@ -1,0 +1,3 @@
+execute run worldborder add 0.1
+execute run scoreboard players set blazeandcave:mining/not_chicken_mcnuggets wb 1
+tellraw @a {"text": " +0.05 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "Not Chicken McNuggets?", "color": "green"}, {"text": "\n"}, {"text": "Craft or find iron nuggets", "color": "#49DB49"}, {"text": "\n\n"}, {"text": "Mining tab", "color": "gray", "italic": true}]}}

@@ -1,0 +1,3 @@
+execute run worldborder add 5.0
+execute run scoreboard players set blazeandcave:biomes/the_great_blocky_reef wb 1
+tellraw @a {"text": " +2.5 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "The Great Blocky Reef", "color": "green"}, {"text": "\n"}, {"text": "Come across a coral reef in the ocean", "color": "#49DB49"}, {"text": "\n\n"}, {"text": "Biomes tab", "color": "gray", "italic": true}]}}

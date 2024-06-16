@@ -1,0 +1,3 @@
+execute run worldborder add 7.0
+execute run scoreboard players set blazeandcave:animal/mushroom_scientist wb 1
+tellraw @a {"text": " +3.5 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "Mushroom Scientist", "color": "dark_purple"}, {"text": "\n"}, {"text": "Strike a mooshroom with lightning and see what happens", "color": "#C900C7"}, {"text": "\n\n"}, {"text": "Animal tab", "color": "gray", "italic": true}]}}

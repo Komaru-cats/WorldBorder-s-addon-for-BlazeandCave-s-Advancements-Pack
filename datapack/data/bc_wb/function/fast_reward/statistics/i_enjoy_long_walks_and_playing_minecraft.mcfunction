@@ -1,0 +1,3 @@
+execute run worldborder add 80.0
+execute run scoreboard players set blazeandcave:statistics/i_enjoy_long_walks_and_playing_minecraft wb 1
+tellraw @a {"text": " +40 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "I enjoy long walks & playing MC", "color": "dark_purple"}, {"text": "\n"}, {"text": "Walk 250km", "color": "#C900C7"}, {"text": "\n\n"}, {"text": "Statistics tab", "color": "gray", "italic": true}]}}

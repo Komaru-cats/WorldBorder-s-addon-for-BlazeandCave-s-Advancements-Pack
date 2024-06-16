@@ -1,0 +1,3 @@
+execute run worldborder add 35.0
+execute run scoreboard players set blazeandcave:challenges/death_from_all wb 1
+tellraw @a {"text": " +17.5 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "Death From All", "color": "#FF2A2A"}, {"text": "\n"}, {"text": "Get killed by every mob that can kill you. (Ignore in hardcore mode)", "color": "#DC2727"}, {"text": "\n\n"}, {"text": "Challenges tab", "color": "gray", "italic": true}]}}

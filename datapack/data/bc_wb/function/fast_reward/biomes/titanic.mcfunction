@@ -1,0 +1,3 @@
+execute run worldborder add 10.0
+execute run scoreboard players set blazeandcave:biomes/titanic wb 1
+tellraw @a {"text": " +5 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "Titanic", "color": "dark_purple"}, {"text": "\n"}, {"text": "Find a shipwreck in an iceberg biome", "color": "#C900C7"}, {"text": "\n\n"}, {"text": "Biomes tab", "color": "gray", "italic": true}]}}

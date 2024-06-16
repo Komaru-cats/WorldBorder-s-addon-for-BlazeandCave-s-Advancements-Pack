@@ -1,0 +1,3 @@
+execute run worldborder add 5.0
+execute run scoreboard players set blazeandcave:animal/wheres_the_honey_lebowski wb 1
+tellraw @a {"text": " +2.5 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "WHERE'S THE HONEY LEBOWSKI", "color": "dark_purple"}, {"text": "\n"}, {"text": "Drink 100 bottles of honey", "color": "#C900C7"}, {"text": "\n\n"}, {"text": "Animal tab", "color": "gray", "italic": true}]}}

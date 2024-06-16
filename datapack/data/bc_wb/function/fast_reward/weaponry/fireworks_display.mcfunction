@@ -1,0 +1,3 @@
+execute run worldborder add 0.2
+execute run scoreboard players set blazeandcave:weaponry/fireworks_display wb 1
+tellraw @a {"text": " +0.1 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "Fireworks Display", "color": "green"}, {"text": "\n"}, {"text": "Use gunpowder and paper to craft fireworks", "color": "#49DB49"}, {"text": "\n\n"}, {"text": "Weaponry tab", "color": "gray", "italic": true}]}}

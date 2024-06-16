@@ -1,0 +1,3 @@
+execute run worldborder add 300.0
+execute run scoreboard players set blazeandcave:bacap/building_milestone wb 1
+tellraw @a {"text": " +150 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "Building Milestone", "color": "yellow"}, {"text": "\n"}, {"text": "Complete every advancement in the Building tab", "color": "#E5E74F"}, {"text": "\n\n"}, {"text": "Bacap tab", "color": "gray", "italic": true}]}}

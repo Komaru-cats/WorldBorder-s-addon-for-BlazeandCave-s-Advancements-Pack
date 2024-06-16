@@ -1,0 +1,3 @@
+execute run worldborder add 100.0
+execute run scoreboard players set blazeandcave:statistics/giga_xp_grinder wb 1
+tellraw @a {"text": " +50 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "Giga XP Grinder", "color": "light_purple"}, {"text": "\n"}, {"text": "Reach 1000 experience levels", "color": "#DE4ADC"}, {"text": "\n\n"}, {"text": "Statistics tab", "color": "gray", "italic": true}]}}

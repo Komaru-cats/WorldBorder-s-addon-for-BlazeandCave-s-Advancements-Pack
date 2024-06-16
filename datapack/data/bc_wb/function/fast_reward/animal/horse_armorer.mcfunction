@@ -1,0 +1,3 @@
+execute run worldborder add 0.2
+execute run scoreboard players set blazeandcave:animal/horse_armorer wb 1
+tellraw @a {"text": " +0.1 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "Horse Armorer", "color": "green"}, {"text": "\n"}, {"text": "Make horse armor out of dead horses (No, joking, any leather will do)", "color": "#49DB49"}, {"text": "\n\n"}, {"text": "Animal tab", "color": "gray", "italic": true}]}}

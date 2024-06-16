@@ -1,0 +1,3 @@
+execute run worldborder add 15.0
+execute run scoreboard players set blazeandcave:monsters/not_afraid_of_heights wb 1
+tellraw @a {"text": " +7.5 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "Not Afraid of Heights", "color": "dark_purple"}, {"text": "\n"}, {"text": "Bring a Warden to world height. It can\u2019t be afraid of heights if it can\u2019t see", "color": "#C900C7"}, {"text": "\n\n"}, {"text": "Monsters tab", "color": "gray", "italic": true}]}}

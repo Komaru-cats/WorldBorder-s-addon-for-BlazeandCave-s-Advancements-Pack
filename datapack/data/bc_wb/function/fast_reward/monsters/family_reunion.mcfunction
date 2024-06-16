@@ -1,0 +1,3 @@
+execute run worldborder add 45.0
+execute run scoreboard players set blazeandcave:monsters/family_reunion wb 1
+tellraw @a {"text": " +22.5 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "Family Reunion", "color": "dark_purple"}, {"text": "\n"}, {"text": "Reunite all zombie variants (and their baby forms) in one place", "color": "#C900C7"}, {"text": "\n\n"}, {"text": "Monsters tab", "color": "gray", "italic": true}]}}

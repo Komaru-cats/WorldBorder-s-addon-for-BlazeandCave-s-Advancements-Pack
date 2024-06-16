@@ -1,0 +1,3 @@
+execute run worldborder add 1.0
+execute run scoreboard players set blazeandcave:nether/magma_cube_squisher wb 1
+tellraw @a {"text": " +0.5 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "Magma Cube Squisher", "color": "#75E1FF"}, {"text": "\n"}, {"text": "Collect a stack of magma cream", "color": "#63BDD7"}, {"text": "\n\n"}, {"text": "Nether tab", "color": "gray", "italic": true}]}}

@@ -1,0 +1,3 @@
+execute run worldborder add 1000000.0
+execute run scoreboard players set blazeandcave:challenges/a_million_blocks_away wb 1
+tellraw @a {"text": " +500000 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "A Million Blocks Away", "color": "#FF2A2A"}, {"text": "\n"}, {"text": "Travel a million blocks away from spawn", "color": "#DC2727"}, {"text": "\n\n"}, {"text": "Challenges tab", "color": "gray", "italic": true}]}}

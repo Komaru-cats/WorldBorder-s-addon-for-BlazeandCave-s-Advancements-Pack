@@ -1,0 +1,3 @@
+execute run worldborder add 12.0
+execute run scoreboard players set blazeandcave:challenges/ad_astra wb 1
+tellraw @a {"text": " +6 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "Ad Astra", "color": "#FF2A2A"}, {"text": "\n"}, {"text": "Reach an altitude of 10,000 blocks above the world", "color": "#DC2727"}, {"text": "\n\n"}, {"text": "Challenges tab", "color": "gray", "italic": true}]}}

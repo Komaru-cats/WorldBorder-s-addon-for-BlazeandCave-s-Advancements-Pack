@@ -1,0 +1,3 @@
+execute run worldborder add 15.0
+execute run scoreboard players set blazeandcave:redstone/travelling_bard wb 1
+tellraw @a {"text": " +7.5 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "Travelling Bard", "color": "dark_purple"}, {"text": "\n"}, {"text": "Play a Note Block in every type of biome", "color": "#C900C7"}, {"text": "\n\n"}, {"text": "Redstone tab", "color": "gray", "italic": true}]}}
