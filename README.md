@@ -36,6 +36,5 @@ The more difficult the achievement, the more blocks it will expand the world
 ## Warning: the World Border of the world will become 1 block and the players will be teleported
 
 </p>
-If you have any questions, you can contact me at discord _Fedor_F#0001
 
 Created by _Fedor_F, ItzSkyReed, Hogurt
