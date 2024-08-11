@@ -1,3 +1,3 @@
 worldborder add 0.2
 scoreboard players set minecraft:adventure/brush_armadillo wb 1
-tellraw @a {"text": " +0.1 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "Isn’t It Scute?", "color": "green"}, {"text": "\n"}, {"text": "Brush an Armadillo to get Armadillo Scutes", "color": "#49DB49"}, {"text": "\n\n"}, {"text": "Animal", "color": "gray", "italic": true}]}}
+tellraw @a {"text": " +0.1 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "Isnâ€™t It Scute?", "color": "green"}, {"text": "\n"}, {"text": "Brush an Armadillo to get Armadillo Scutes", "color": "#49DB49"}, {"text": "\n\n"}, {"text": "Animal", "color": "gray", "italic": true}]}}

@@ -1,3 +1,3 @@
 worldborder add 3.0
 scoreboard players set blazeandcave:end/a_wizards_breakfast wb 1
-tellraw @a {"text": " +1.5 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "A Wizard’s Breakfast", "color": "dark_purple"}, {"text": "\n"}, {"text": "Eat a stack of Chorus Fruit in one go", "color": "#C900C7"}, {"text": "\n\n"}, {"text": "End", "color": "gray", "italic": true}]}}
+tellraw @a {"text": " +1.5 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "A Wizardâ€™s Breakfast", "color": "dark_purple"}, {"text": "\n"}, {"text": "Eat a stack of Chorus Fruit in one go", "color": "#C900C7"}, {"text": "\n\n"}, {"text": "End", "color": "gray", "italic": true}]}}
