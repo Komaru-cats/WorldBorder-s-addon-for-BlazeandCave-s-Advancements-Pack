@@ -1,3 +1,3 @@
-execute run worldborder add 0.4
-execute run scoreboard players set blazeandcave:building/tuff_stuff wb 1
-tellraw @a {"text": " +0.2 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "Tuff Stuff", "color": "green"}, {"text": "\n"}, {"text": "Craft or collect all forms of Tuff, Polished Tuff, and Tuff Bricks", "color": "#49DB49"}, {"text": "\n\n"}, {"text": "Building tab", "color": "gray", "italic": true}]}}
+worldborder add 0.4
+scoreboard players set blazeandcave:building/tuff_stuff wb 1
+tellraw @a {"text": " +0.2 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "Tuff Stuff", "color": "green"}, {"text": "\n"}, {"text": "Craft or collect all forms of Tuff, Polished Tuff, and Tuff Bricks", "color": "#49DB49"}, {"text": "\n\n"}, {"text": "Building", "color": "gray", "italic": true}]}}

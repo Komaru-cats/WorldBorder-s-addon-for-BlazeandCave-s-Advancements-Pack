@@ -1,3 +1,3 @@
-execute run worldborder add 0.3
-execute run scoreboard players set minecraft:adventure/voluntary_exile wb 1
-tellraw @a {"text": " +0.15 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "I've got a bad feeling about this", "color": "green"}, {"text": "\n"}, {"text": "Kill a raid captain. Maybe consider staying away from villages for the time being...", "color": "#49DB49"}, {"text": "\n\n"}, {"text": "Adventure tab", "color": "gray", "italic": true}]}}
+worldborder add 0.3
+scoreboard players set minecraft:adventure/voluntary_exile wb 1
+tellraw @a {"text": " +0.15 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "I've got a bad feeling about this", "color": "green"}, {"text": "\n"}, {"text": "Kill a raid captain. Maybe consider staying away from villages for the time being...", "color": "#49DB49"}, {"text": "\n\n"}, {"text": "Adventure", "color": "gray", "italic": true}]}}

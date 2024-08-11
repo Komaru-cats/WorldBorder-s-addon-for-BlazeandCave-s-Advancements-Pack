@@ -1,3 +1,3 @@
-execute run worldborder add 5.0
-execute run scoreboard players set minecraft:adventure/two_birds_one_arrow wb 1
-tellraw @a {"text": " +2.5 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "Two Birds, One Arrow", "color": "dark_purple"}, {"text": "\n"}, {"text": "Kill two Phantoms with a piercing arrow", "color": "#C900C7"}, {"text": "\n\n"}, {"text": "Monsters tab", "color": "gray", "italic": true}]}}
+worldborder add 5.0
+scoreboard players set minecraft:adventure/two_birds_one_arrow wb 1
+tellraw @a {"text": " +2.5 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "Two Birds, One Arrow", "color": "dark_purple"}, {"text": "\n"}, {"text": "Kill two Phantoms with a piercing arrow", "color": "#C900C7"}, {"text": "\n\n"}, {"text": "Monsters", "color": "gray", "italic": true}]}}

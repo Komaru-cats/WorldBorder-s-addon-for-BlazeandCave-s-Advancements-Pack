@@ -1,3 +1,3 @@
-execute run worldborder add 2.0
-execute run scoreboard players set blazeandcave:adventure/retro_future_knight wb 1
-tellraw @a {"text": " +1 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "Retro Future Knight", "color": "#75E1FF"}, {"text": "\n"}, {"text": "Trade for full suit of chain armor from an armorer villager", "color": "#63BDD7"}, {"text": "\n\n"}, {"text": "Adventure tab", "color": "gray", "italic": true}]}}
+worldborder add 2.0
+scoreboard players set blazeandcave:adventure/retro_future_knight wb 1
+tellraw @a {"text": " +1.0 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "Retro Future Knight", "color": "#75E1FF"}, {"text": "\n"}, {"text": "Trade for full suit of chain armor from an armorer villager", "color": "#63BDD7"}, {"text": "\n\n"}, {"text": "Adventure", "color": "gray", "italic": true}]}}

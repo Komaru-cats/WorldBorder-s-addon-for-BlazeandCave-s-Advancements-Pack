@@ -1,3 +1,3 @@
-execute run worldborder add 1.0
-execute run scoreboard players set blazeandcave:mining/diamond_clad wb 1
-tellraw @a {"text": " +0.5 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "Diamond Clad", "color": "#75E1FF"}, {"text": "\n"}, {"text": "A full suit of diamond armor saves even more lives", "color": "#63BDD7"}, {"text": "\n\n"}, {"text": "Mining tab", "color": "gray", "italic": true}]}}
+worldborder add 1.0
+scoreboard players set blazeandcave:mining/diamond_clad wb 1
+tellraw @a {"text": " +0.5 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "Diamond Clad", "color": "#75E1FF"}, {"text": "\n"}, {"text": "A full suit of diamond armor saves even more lives", "color": "#63BDD7"}, {"text": "\n\n"}, {"text": "Mining", "color": "gray", "italic": true}]}}

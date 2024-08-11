@@ -1,3 +1,3 @@
-execute run worldborder add 15.0
-execute run scoreboard players set minecraft:nether/uneasy_alliance wb 1
-tellraw @a {"text": " +7.5 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "Uneasy Alliance", "color": "dark_purple"}, {"text": "\n"}, {"text": "Rescue a Ghast from the Nether, bring it safely home to the Overworld... and then kill it", "color": "#C900C7"}, {"text": "\n\n"}, {"text": "Nether tab", "color": "gray", "italic": true}]}}
+worldborder add 15.0
+scoreboard players set minecraft:nether/uneasy_alliance wb 1
+tellraw @a {"text": " +7.5 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "Uneasy Alliance", "color": "dark_purple"}, {"text": "\n"}, {"text": "Rescue a Ghast from the Nether, bring it safely home to the Overworld... and then kill it", "color": "#C900C7"}, {"text": "\n\n"}, {"text": "Nether", "color": "gray", "italic": true}]}}

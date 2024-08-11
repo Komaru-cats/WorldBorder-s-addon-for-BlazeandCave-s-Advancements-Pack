@@ -1,3 +1,3 @@
-execute run worldborder add 3.0
-execute run scoreboard players set blazeandcave:mining/frigid_diversions wb 1
-tellraw @a {"text": " +1.5 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "Frigid Diversions", "color": "#75E1FF"}, {"text": "\n"}, {"text": "Loot a chest inside an ice box in an Ancient City", "color": "#63BDD7"}, {"text": "\n\n"}, {"text": "Mining tab", "color": "gray", "italic": true}]}}
+worldborder add 3.0
+scoreboard players set blazeandcave:mining/frigid_diversions wb 1
+tellraw @a {"text": " +1.5 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "Frigid Diversions", "color": "#75E1FF"}, {"text": "\n"}, {"text": "Loot a chest inside an ice box in an Ancient City", "color": "#63BDD7"}, {"text": "\n\n"}, {"text": "Mining", "color": "gray", "italic": true}]}}

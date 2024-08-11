@@ -1,3 +1,3 @@
-execute run worldborder add 500.0
-execute run scoreboard players set blazeandcave:bacap/enchanting_milestone wb 1
-tellraw @a {"text": " +250 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "Enchanting Milestone", "color": "yellow"}, {"text": "\n"}, {"text": "Complete every advancement in the Enchanting tab", "color": "#E5E74F"}, {"text": "\n\n"}, {"text": "Bacap tab", "color": "gray", "italic": true}]}}
+worldborder add 500.0
+scoreboard players set blazeandcave:bacap/enchanting_milestone wb 1
+tellraw @a {"text": " +250.0 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "Enchanting Milestone", "color": "yellow"}, {"text": "\n"}, {"text": "Complete every advancement in the Enchanting tab", "color": "#E5E74F"}, {"text": "\n\n"}, {"text": "BlazeandCave's Advancements", "color": "gray", "italic": true}]}}

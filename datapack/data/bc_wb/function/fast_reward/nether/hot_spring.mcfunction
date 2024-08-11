@@ -1,3 +1,3 @@
-execute run worldborder add 0.4
-execute run scoreboard players set blazeandcave:nether/hot_spring wb 1
-tellraw @a {"text": " +0.2 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "Hot Spring", "color": "green"}, {"text": "\n"}, {"text": "Sit in water in the Nether", "color": "#49DB49"}, {"text": "\n\n"}, {"text": "Nether tab", "color": "gray", "italic": true}]}}
+worldborder add 0.4
+scoreboard players set blazeandcave:nether/hot_spring wb 1
+tellraw @a {"text": " +0.2 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "Hot Spring", "color": "green"}, {"text": "\n"}, {"text": "Sit in water in the Nether", "color": "#49DB49"}, {"text": "\n\n"}, {"text": "Nether", "color": "gray", "italic": true}]}}

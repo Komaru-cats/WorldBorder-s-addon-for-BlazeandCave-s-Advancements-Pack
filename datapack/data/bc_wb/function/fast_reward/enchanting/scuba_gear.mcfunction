@@ -1,3 +1,3 @@
-execute run worldborder add 4.0
-execute run scoreboard players set blazeandcave:enchanting/scuba_gear wb 1
-tellraw @a {"text": " +2 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "Scuba Gear", "color": "#75E1FF"}, {"text": "\n"}, {"text": "Obtain every water related enchantment", "color": "#63BDD7"}, {"text": "\n\n"}, {"text": "Enchanting tab", "color": "gray", "italic": true}]}}
+worldborder add 4.0
+scoreboard players set blazeandcave:enchanting/scuba_gear wb 1
+tellraw @a {"text": " +2.0 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "Scuba Gear", "color": "#75E1FF"}, {"text": "\n"}, {"text": "Obtain every water related enchantment", "color": "#63BDD7"}, {"text": "\n\n"}, {"text": "Enchanting", "color": "gray", "italic": true}]}}

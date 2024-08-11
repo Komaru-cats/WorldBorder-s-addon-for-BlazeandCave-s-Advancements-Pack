@@ -1,3 +1,3 @@
-execute run worldborder add 1.0
-execute run scoreboard players set blazeandcave:adventure/buy_low_sell_high wb 1
-tellraw @a {"text": " +0.5 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "Buy Low, Sell High", "color": "#75E1FF"}, {"text": "\n"}, {"text": "Trade with a villager while under the Hero of the Village effect", "color": "#63BDD7"}, {"text": "\n\n"}, {"text": "Adventure tab", "color": "gray", "italic": true}]}}
+worldborder add 1.0
+scoreboard players set blazeandcave:adventure/buy_low_sell_high wb 1
+tellraw @a {"text": " +0.5 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "Buy Low, Sell High", "color": "#75E1FF"}, {"text": "\n"}, {"text": "Trade with a villager while under the Hero of the Village effect", "color": "#63BDD7"}, {"text": "\n\n"}, {"text": "Adventure", "color": "gray", "italic": true}]}}

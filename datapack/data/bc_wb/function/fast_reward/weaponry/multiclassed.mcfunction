@@ -1,3 +1,3 @@
-execute run worldborder add 4.0
-execute run scoreboard players set blazeandcave:weaponry/multiclassed wb 1
-tellraw @a {"text": " +2 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "Multiclassed", "color": "dark_purple"}, {"text": "\n"}, {"text": "Hit a mob with every type of weapon", "color": "#C900C7"}, {"text": "\n\n"}, {"text": "Weaponry tab", "color": "gray", "italic": true}]}}
+worldborder add 4.0
+scoreboard players set blazeandcave:weaponry/multiclassed wb 1
+tellraw @a {"text": " +2.0 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "Multiclassed", "color": "dark_purple"}, {"text": "\n"}, {"text": "Hit a mob with every type of weapon", "color": "#C900C7"}, {"text": "\n\n"}, {"text": "Weaponry", "color": "gray", "italic": true}]}}

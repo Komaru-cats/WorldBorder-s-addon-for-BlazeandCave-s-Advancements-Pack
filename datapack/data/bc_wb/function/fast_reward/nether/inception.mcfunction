@@ -1,3 +1,3 @@
-execute run worldborder add 2.0
-execute run scoreboard players set blazeandcave:nether/inception wb 1
-tellraw @a {"text": " +1 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "Inception", "color": "dark_purple"}, {"text": "\n"}, {"text": "Build a machine that can break a hole in the roof of the Nether", "color": "#C900C7"}, {"text": "\n\n"}, {"text": "Nether tab", "color": "gray", "italic": true}]}}
+worldborder add 2.0
+scoreboard players set blazeandcave:nether/inception wb 1
+tellraw @a {"text": " +1.0 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "Inception", "color": "dark_purple"}, {"text": "\n"}, {"text": "Build a machine that can break a hole in the roof of the Nether", "color": "#C900C7"}, {"text": "\n\n"}, {"text": "Nether", "color": "gray", "italic": true}]}}

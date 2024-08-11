@@ -1,3 +1,3 @@
-execute run worldborder add 10.0
-execute run scoreboard players set blazeandcave:biomes/no_reefing wb 1
-tellraw @a {"text": " +5 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "No Reefing!", "color": "dark_purple"}, {"text": "\n"}, {"text": "Collect all colors of coral blocks, plants and fans (including dead ones)", "color": "#C900C7"}, {"text": "\n\n"}, {"text": "Biomes tab", "color": "gray", "italic": true}]}}
+worldborder add 10.0
+scoreboard players set blazeandcave:biomes/no_reefing wb 1
+tellraw @a {"text": " +5.0 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "No Reefing!", "color": "dark_purple"}, {"text": "\n"}, {"text": "Collect all colors of coral blocks, plants and fans (including dead ones)", "color": "#C900C7"}, {"text": "\n\n"}, {"text": "Biomes", "color": "gray", "italic": true}]}}

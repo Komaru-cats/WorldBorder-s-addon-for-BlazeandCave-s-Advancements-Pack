@@ -1,3 +1,3 @@
-execute run worldborder add 800.0
-execute run scoreboard players set blazeandcave:nether/netherite_mad_lad wb 1
-tellraw @a {"text": " +400 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "Netherite Mad Lad", "color": "light_purple"}, {"text": "\n"}, {"text": "Be an absolute madlad and grind enough Ancient Debris to make a stack of Netherite Blocks (this is hidden and not required for Advancement Legend btw\u2026)", "color": "#DE4ADC"}, {"text": "\n\n"}, {"text": "Nether tab", "color": "gray", "italic": true}]}}
+worldborder add 800.0
+scoreboard players set blazeandcave:nether/netherite_mad_lad wb 1
+tellraw @a {"text": " +400.0 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "Netherite Mad Lad", "color": "light_purple"}, {"text": "\n"}, {"text": "Be an absolute madlad and grind enough Ancient Debris to make a stack of Netherite Blocks (this is hidden and not required for Advancement Legend btw…)", "color": "#DE4ADC"}, {"text": "\n\n"}, {"text": "Nether", "color": "gray", "italic": true}]}}

@@ -1,3 +1,3 @@
-execute run worldborder add 5.0
-execute run scoreboard players set blazeandcave:adventure/awards_ceremony wb 1
-tellraw @a {"text": " +2.5 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "Awards Ceremony", "color": "light_purple"}, {"text": "\n"}, {"text": "Have an Allay present to you a trophy awarded from completing one of the advancements", "color": "#DE4ADC"}, {"text": "\n\n"}, {"text": "Adventure tab", "color": "gray", "italic": true}]}}
+worldborder add 5.0
+scoreboard players set blazeandcave:adventure/awards_ceremony wb 1
+tellraw @a {"text": " +2.5 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "Awards Ceremony", "color": "light_purple"}, {"text": "\n"}, {"text": "Have an Allay present to you a trophy awarded from completing one of the advancements", "color": "#DE4ADC"}, {"text": "\n\n"}, {"text": "Adventure", "color": "gray", "italic": true}]}}

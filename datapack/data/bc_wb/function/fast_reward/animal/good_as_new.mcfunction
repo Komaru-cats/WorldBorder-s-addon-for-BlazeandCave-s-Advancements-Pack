@@ -1,3 +1,3 @@
-execute run worldborder add 0.1
-execute run scoreboard players set minecraft:husbandry/repair_wolf_armor wb 1
-tellraw @a {"text": " +0.05 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "advancements.husbandry.repair_wolf_armor.title", "color": "green"}, {"text": "\n"}, {"text": "advancements.husbandry.repair_wolf_armor.description", "color": "#49DB49"}, {"text": "\n\n"}, {"text": "Animal tab", "color": "gray", "italic": true}]}}
+worldborder add 0.1
+scoreboard players set minecraft:husbandry/repair_wolf_armor wb 1
+tellraw @a {"text": " +0.05 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "Good as New", "color": "green"}, {"text": "\n"}, {"text": "Repair damaged Wolf Armor using Armadillo Scutes", "color": "#49DB49"}, {"text": "\n\n"}, {"text": "Animal", "color": "gray", "italic": true}]}}

@@ -1,3 +1,3 @@
-execute run worldborder add 50.0
-execute run scoreboard players set minecraft:adventure/arbalistic wb 1
-tellraw @a {"text": " +25 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "Arbalistic", "color": "dark_purple"}, {"text": "\n"}, {"text": "Kill five unique mobs with one crossbow shot", "color": "#C900C7"}, {"text": "\n\n"}, {"text": "Enchanting tab", "color": "gray", "italic": true}]}}
+worldborder add 50.0
+scoreboard players set minecraft:adventure/arbalistic wb 1
+tellraw @a {"text": " +25.0 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "Arbalistic", "color": "dark_purple"}, {"text": "\n"}, {"text": "Kill five unique mobs with one crossbow shot", "color": "#C900C7"}, {"text": "\n\n"}, {"text": "Enchanting", "color": "gray", "italic": true}]}}

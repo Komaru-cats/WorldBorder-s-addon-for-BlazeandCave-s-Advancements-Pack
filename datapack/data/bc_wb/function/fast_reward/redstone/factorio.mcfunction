@@ -1,3 +1,3 @@
-execute run worldborder add 3.0
-execute run scoreboard players set blazeandcave:redstone/factorio wb 1
-tellraw @a {"text": " +1.5 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "Factorio", "color": "dark_purple"}, {"text": "\n"}, {"text": "Be near a Crafter when it crafts a Dispenser 64 times", "color": "#C900C7"}, {"text": "\n\n"}, {"text": "Redstone tab", "color": "gray", "italic": true}]}}
+worldborder add 3.0
+scoreboard players set blazeandcave:redstone/factorio wb 1
+tellraw @a {"text": " +1.5 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "Factorio", "color": "dark_purple"}, {"text": "\n"}, {"text": "Be near a Crafter when it crafts a Dispenser 64 times", "color": "#C900C7"}, {"text": "\n\n"}, {"text": "Redstone", "color": "gray", "italic": true}]}}

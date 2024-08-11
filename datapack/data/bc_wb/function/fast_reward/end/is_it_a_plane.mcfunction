@@ -1,3 +1,3 @@
-execute run worldborder add 1.0
-execute run scoreboard players set minecraft:adventure/spyglass_at_dragon wb 1
-tellraw @a {"text": " +0.5 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "Is it a Plane?", "color": "green"}, {"text": "\n"}, {"text": "Look at the Ender Dragon through a Spyglass", "color": "#49DB49"}, {"text": "\n\n"}, {"text": "End tab", "color": "gray", "italic": true}]}}
+worldborder add 1.0
+scoreboard players set minecraft:adventure/spyglass_at_dragon wb 1
+tellraw @a {"text": " +0.5 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "Is it a Plane?", "color": "green"}, {"text": "\n"}, {"text": "Look at the Ender Dragon through a Spyglass", "color": "#49DB49"}, {"text": "\n\n"}, {"text": "End", "color": "gray", "italic": true}]}}

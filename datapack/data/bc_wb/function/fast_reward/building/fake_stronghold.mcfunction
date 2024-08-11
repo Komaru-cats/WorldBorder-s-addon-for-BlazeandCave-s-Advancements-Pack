@@ -1,3 +1,3 @@
-execute run worldborder add 2.0
-execute run scoreboard players set blazeandcave:building/fake_stronghold wb 1
-tellraw @a {"text": " +1 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "Fake stronghold", "color": "green"}, {"text": "\n"}, {"text": "Craft or collect all forms of normal, cracked, mossy and chiseled stone bricks", "color": "#49DB49"}, {"text": "\n\n"}, {"text": "Building tab", "color": "gray", "italic": true}]}}
+worldborder add 2.0
+scoreboard players set blazeandcave:building/fake_stronghold wb 1
+tellraw @a {"text": " +1.0 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "Fake stronghold", "color": "green"}, {"text": "\n"}, {"text": "Craft or collect all forms of normal, cracked, mossy and chiseled stone bricks", "color": "#49DB49"}, {"text": "\n\n"}, {"text": "Building", "color": "gray", "italic": true}]}}

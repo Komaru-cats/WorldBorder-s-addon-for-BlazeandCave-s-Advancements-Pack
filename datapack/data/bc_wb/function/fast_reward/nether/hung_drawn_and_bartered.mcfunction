@@ -1,3 +1,3 @@
-execute run worldborder add 5.0
-execute run scoreboard players set blazeandcave:nether/hung_drawn_and_bartered wb 1
-tellraw @a {"text": " +2.5 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "Hung, Drawn and Bartered", "color": "dark_purple"}, {"text": "\n"}, {"text": "Barter for every possible type of item with Piglins", "color": "#C900C7"}, {"text": "\n\n"}, {"text": "Nether tab", "color": "gray", "italic": true}]}}
+worldborder add 5.0
+scoreboard players set blazeandcave:nether/hung_drawn_and_bartered wb 1
+tellraw @a {"text": " +2.5 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "Hung, Drawn and Bartered", "color": "dark_purple"}, {"text": "\n"}, {"text": "Barter for every possible type of item with Piglins", "color": "#C900C7"}, {"text": "\n\n"}, {"text": "Nether", "color": "gray", "italic": true}]}}

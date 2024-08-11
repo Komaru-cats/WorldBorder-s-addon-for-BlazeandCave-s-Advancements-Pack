@@ -1,3 +1,3 @@
-execute run worldborder add 6.0
-execute run scoreboard players set blazeandcave:enchanting/whack_a_mole wb 1
-tellraw @a {"text": " +3 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "Whack-a-mole", "color": "dark_purple"}, {"text": "\n"}, {"text": "Using a Mace enchanted with Wind Burst, hit eight Armadillos consecutively without touching the ground", "color": "#C900C7"}, {"text": "\n\n"}, {"text": "Enchanting tab", "color": "gray", "italic": true}]}}
+worldborder add 6.0
+scoreboard players set blazeandcave:enchanting/whack_a_mole wb 1
+tellraw @a {"text": " +3.0 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "Whack-a-mole", "color": "dark_purple"}, {"text": "\n"}, {"text": "Using a Mace enchanted with Wind Burst, hit eight Armadillos consecutively without touching the ground", "color": "#C900C7"}, {"text": "\n\n"}, {"text": "Enchanting", "color": "gray", "italic": true}]}}

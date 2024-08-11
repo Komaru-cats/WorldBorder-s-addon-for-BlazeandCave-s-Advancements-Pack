@@ -1,3 +1,3 @@
-execute run worldborder add 10.0
-execute run scoreboard players set blazeandcave:weaponry/the_mighty_hunter wb 1
-tellraw @a {"text": " +5 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "The Mighty Hunter", "color": "dark_purple"}, {"text": "\n"}, {"text": "Hunt all types of land animals with your bow", "color": "#C900C7"}, {"text": "\n\n"}, {"text": "Weaponry tab", "color": "gray", "italic": true}]}}
+worldborder add 10.0
+scoreboard players set blazeandcave:weaponry/the_mighty_hunter wb 1
+tellraw @a {"text": " +5.0 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "The Mighty Hunter", "color": "dark_purple"}, {"text": "\n"}, {"text": "Hunt all types of land animals with your bow", "color": "#C900C7"}, {"text": "\n\n"}, {"text": "Weaponry", "color": "gray", "italic": true}]}}

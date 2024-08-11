@@ -1,3 +1,3 @@
-execute run worldborder add 0.8
-execute run scoreboard players set blazeandcave:nether/nether_rock_collection wb 1
-tellraw @a {"text": " +0.4 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "Nether Rock Collection", "color": "green"}, {"text": "\n"}, {"text": "Mine a stack of Netherrack, Basalt, Blackstone and Magma in the Nether", "color": "#49DB49"}, {"text": "\n\n"}, {"text": "Nether tab", "color": "gray", "italic": true}]}}
+worldborder add 0.8
+scoreboard players set blazeandcave:nether/nether_rock_collection wb 1
+tellraw @a {"text": " +0.4 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "Nether Rock Collection", "color": "green"}, {"text": "\n"}, {"text": "Mine a stack of Netherrack, Basalt, Blackstone and Magma in the Nether", "color": "#49DB49"}, {"text": "\n\n"}, {"text": "Nether", "color": "gray", "italic": true}]}}

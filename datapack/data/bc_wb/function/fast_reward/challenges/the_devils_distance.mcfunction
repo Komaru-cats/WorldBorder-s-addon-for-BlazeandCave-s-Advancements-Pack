@@ -1,3 +1,3 @@
-execute run worldborder add 1000000.0
-execute run scoreboard players set blazeandcave:challenges/the_devils_distance wb 1
-tellraw @a {"text": " +500000 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "The Devil's Distance", "color": "#FF2A2A"}, {"text": "\n"}, {"text": "Use the Nether to travel 666km in the Overworld", "color": "#DC2727"}, {"text": "\n\n"}, {"text": "Challenges tab", "color": "gray", "italic": true}]}}
+worldborder add 1000000.0
+scoreboard players set blazeandcave:challenges/the_devils_distance wb 1
+tellraw @a {"text": " +500000.0 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "The Devil's Distance", "color": "#FF2A2A"}, {"text": "\n"}, {"text": "Use the Nether to travel 666km in the Overworld", "color": "#DC2727"}, {"text": "\n\n"}, {"text": "Challenges", "color": "gray", "italic": true}]}}

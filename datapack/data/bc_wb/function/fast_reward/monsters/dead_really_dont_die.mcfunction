@@ -1,3 +1,3 @@
-execute run worldborder add 2.0
-execute run scoreboard players set blazeandcave:monsters/dead_really_dont_die wb 1
-tellraw @a {"text": " +1 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "Dead Really Don\u2019t Die", "color": "#75E1FF"}, {"text": "\n"}, {"text": "Give a zombie a Totem... so that you have to kill it twice", "color": "#63BDD7"}, {"text": "\n\n"}, {"text": "Monsters tab", "color": "gray", "italic": true}]}}
+worldborder add 2.0
+scoreboard players set blazeandcave:monsters/dead_really_dont_die wb 1
+tellraw @a {"text": " +1.0 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "Dead Really Don’t Die", "color": "#75E1FF"}, {"text": "\n"}, {"text": "Give a zombie a Totem... so that you have to kill it twice", "color": "#63BDD7"}, {"text": "\n\n"}, {"text": "Monsters", "color": "gray", "italic": true}]}}

@@ -1,3 +1,3 @@
-execute run worldborder add 1.0
-execute run scoreboard players set blazeandcave:enchanting/newtons_flaming_laser_sword wb 1
-tellraw @a {"text": " +0.5 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "Newton's Flaming Laser Sword", "color": "#75E1FF"}, {"text": "\n"}, {"text": "Have a diamond sword with Fire Aspect II", "color": "#63BDD7"}, {"text": "\n\n"}, {"text": "Enchanting tab", "color": "gray", "italic": true}]}}
+worldborder add 1.0
+scoreboard players set blazeandcave:enchanting/newtons_flaming_laser_sword wb 1
+tellraw @a {"text": " +0.5 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "Newton's Flaming Laser Sword", "color": "#75E1FF"}, {"text": "\n"}, {"text": "Have a diamond sword with Fire Aspect II", "color": "#63BDD7"}, {"text": "\n\n"}, {"text": "Enchanting", "color": "gray", "italic": true}]}}

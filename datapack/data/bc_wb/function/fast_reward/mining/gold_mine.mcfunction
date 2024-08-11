@@ -1,3 +1,3 @@
-execute run worldborder add 10.0
-execute run scoreboard players set blazeandcave:mining/gold_mine wb 1
-tellraw @a {"text": " +5 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "Gold Mine!", "color": "green"}, {"text": "\n"}, {"text": "Find a mineshaft on the surface of a mesa biome", "color": "#49DB49"}, {"text": "\n\n"}, {"text": "Mining tab", "color": "gray", "italic": true}]}}
+worldborder add 10.0
+scoreboard players set blazeandcave:mining/gold_mine wb 1
+tellraw @a {"text": " +5.0 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "Gold Mine!", "color": "green"}, {"text": "\n"}, {"text": "Find a mineshaft on the surface of a mesa biome", "color": "#49DB49"}, {"text": "\n\n"}, {"text": "Mining", "color": "gray", "italic": true}]}}

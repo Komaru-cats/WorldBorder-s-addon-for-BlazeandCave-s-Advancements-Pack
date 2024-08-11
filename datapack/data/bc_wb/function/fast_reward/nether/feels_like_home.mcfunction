@@ -1,3 +1,3 @@
-execute run worldborder add 4.0
-execute run scoreboard players set minecraft:nether/ride_strider_in_overworld_lava wb 1
-tellraw @a {"text": " +2 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "Feels Like Home", "color": "#75E1FF"}, {"text": "\n"}, {"text": "Take a Strider for a loooong ride on a lava lake in the Overworld", "color": "#63BDD7"}, {"text": "\n\n"}, {"text": "Nether tab", "color": "gray", "italic": true}]}}
+worldborder add 4.0
+scoreboard players set minecraft:nether/ride_strider_in_overworld_lava wb 1
+tellraw @a {"text": " +2.0 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "Feels Like Home", "color": "#75E1FF"}, {"text": "\n"}, {"text": "Take a Strider for a loooong ride on a lava lake in the Overworld", "color": "#63BDD7"}, {"text": "\n\n"}, {"text": "Nether", "color": "gray", "italic": true}]}}

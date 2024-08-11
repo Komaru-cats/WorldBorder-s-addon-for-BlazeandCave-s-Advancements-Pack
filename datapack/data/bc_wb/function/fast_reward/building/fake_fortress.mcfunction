@@ -1,3 +1,3 @@
-execute run worldborder add 5.0
-execute run scoreboard players set blazeandcave:building/fake_fortress wb 1
-tellraw @a {"text": " +2.5 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "Fake fortress", "color": "green"}, {"text": "\n"}, {"text": "Craft or collect all forms of nether brick and red nether brick", "color": "#49DB49"}, {"text": "\n\n"}, {"text": "Building tab", "color": "gray", "italic": true}]}}
+worldborder add 5.0
+scoreboard players set blazeandcave:building/fake_fortress wb 1
+tellraw @a {"text": " +2.5 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "Fake fortress", "color": "green"}, {"text": "\n"}, {"text": "Craft or collect all forms of nether brick and red nether brick", "color": "#49DB49"}, {"text": "\n\n"}, {"text": "Building", "color": "gray", "italic": true}]}}

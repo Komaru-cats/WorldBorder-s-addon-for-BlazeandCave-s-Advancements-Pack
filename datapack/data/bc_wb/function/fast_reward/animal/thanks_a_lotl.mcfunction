@@ -1,3 +1,3 @@
-execute run worldborder add 10.0
-execute run scoreboard players set blazeandcave:animal/thanks_a_lotl wb 1
-tellraw @a {"text": " +5 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "Thanks a lotl", "color": "#75E1FF"}, {"text": "\n"}, {"text": "Team up with an Axolotl in an Ocean Monument to help clear the curse of the Elders", "color": "#63BDD7"}, {"text": "\n\n"}, {"text": "Animal tab", "color": "gray", "italic": true}]}}
+worldborder add 10.0
+scoreboard players set blazeandcave:animal/thanks_a_lotl wb 1
+tellraw @a {"text": " +5.0 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "Thanks a lotl", "color": "#75E1FF"}, {"text": "\n"}, {"text": "Team up with an Axolotl in an Ocean Monument to help clear the curse of the Elders", "color": "#63BDD7"}, {"text": "\n\n"}, {"text": "Animal", "color": "gray", "italic": true}]}}
