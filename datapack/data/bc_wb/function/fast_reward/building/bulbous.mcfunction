@@ -1,3 +1,3 @@
 worldborder add 0.4
 scoreboard players set blazeandcave:building/bulbous wb 1
-tellraw @a {"text": " +0.2 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "Bulbous!", "color": "green"}, {"text": "\n"}, {"text": "Light up the area with a Copper Bulb!", "color": "#49DB49"}, {"text": "\n\n"}, {"text": "Building", "color": "gray", "italic": true}]}}
+tellraw @a {"text": " +0.2 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"translate": "Bulbous!", "color": "green"}, {"text": "\n"}, {"translate": "Light up the area with a Copper Bulb!", "color": "#49DB49"}, {"text": "\n\n"}, {"translate": "Building", "color": "gray", "italic": true}]}}

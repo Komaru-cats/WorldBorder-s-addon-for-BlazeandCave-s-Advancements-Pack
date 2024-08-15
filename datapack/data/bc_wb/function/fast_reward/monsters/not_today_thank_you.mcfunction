@@ -1,3 +1,0 @@
-worldborder add 0.2
-scoreboard players set minecraft:story/deflect_arrow wb 1
-tellraw @a {"text": " +0.1 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "Not Today, Thank You", "color": "green"}, {"text": "\n"}, {"text": "Deflect a Skeleton's arrow with a Shield", "color": "#49DB49"}, {"text": "\n\n"}, {"text": "Monsters", "color": "gray", "italic": true}]}}

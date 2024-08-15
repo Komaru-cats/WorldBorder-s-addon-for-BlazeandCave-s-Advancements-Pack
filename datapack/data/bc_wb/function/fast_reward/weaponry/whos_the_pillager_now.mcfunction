@@ -1,3 +1,0 @@
-worldborder add 0.4
-scoreboard players set minecraft:adventure/whos_the_pillager_now wb 1
-tellraw @a {"text": " +0.2 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "Who's the Pillager Now?", "color": "green"}, {"text": "\n"}, {"text": "Give a Pillager a taste of their own medicine", "color": "#49DB49"}, {"text": "\n\n"}, {"text": "Weaponry", "color": "gray", "italic": true}]}}

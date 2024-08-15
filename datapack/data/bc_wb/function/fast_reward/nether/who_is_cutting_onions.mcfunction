@@ -1,3 +1,0 @@
-worldborder add 0.3
-scoreboard players set minecraft:nether/obtain_crying_obsidian wb 1
-tellraw @a {"text": " +0.15 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "Who is Cutting Onions?", "color": "green"}, {"text": "\n"}, {"text": "Obtain Crying Obsidian from a ruined portal or bartering with Piglins", "color": "#49DB49"}, {"text": "\n\n"}, {"text": "Nether", "color": "gray", "italic": true}]}}

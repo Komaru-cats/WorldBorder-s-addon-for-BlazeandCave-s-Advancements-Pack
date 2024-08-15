@@ -1,3 +1,0 @@
-worldborder add 0.0
-scoreboard players set blazeandcave:monsters/handsome_jack wb 1
-tellraw @a {"text": " +0.0 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "Handsome Jack", "color": "light_purple"}, {"text": "\n"}, {"text": "Defeat a mob wearing a Jack o' Lantern on Halloween", "color": "#DE4ADC"}, {"text": "\n\n"}, {"text": "Monsters", "color": "gray", "italic": true}]}}

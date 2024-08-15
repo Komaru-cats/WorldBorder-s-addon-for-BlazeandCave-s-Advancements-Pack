@@ -1,3 +1,3 @@
 worldborder add 2.0
 scoreboard players set blazeandcave:building/grass_type wb 1
-tellraw @a {"text": " +1.0 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "Grass Type", "color": "#75E1FF"}, {"text": "\n"}, {"text": "Obtain every type of grass block in your inventory", "color": "#63BDD7"}, {"text": "\n\n"}, {"text": "Building", "color": "gray", "italic": true}]}}
+tellraw @a {"text": " +1.0 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"translate": "Grass Type", "color": "#75E1FF"}, {"text": "\n"}, {"translate": "Obtain every type of grass block in your inventory", "color": "#63BDD7"}, {"text": "\n\n"}, {"translate": "Building", "color": "gray", "italic": true}]}}

@@ -1,3 +1,0 @@
-worldborder add 2.0
-scoreboard players set minecraft:adventure/overoverkill wb 1
-tellraw @a {"text": " +1.0 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "Meteor Strike", "color": "dark_purple"}, {"text": "\n"}, {"text": "Deal 50 hearts of damage in a single hit using the Mace", "color": "#C900C7"}, {"text": "\n\n"}, {"text": "Weaponry", "color": "gray", "italic": true}]}}

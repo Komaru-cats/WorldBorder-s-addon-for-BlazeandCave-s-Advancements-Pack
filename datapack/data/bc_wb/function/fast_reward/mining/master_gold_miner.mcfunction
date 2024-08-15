@@ -1,3 +1,0 @@
-worldborder add 10.0
-scoreboard players set blazeandcave:mining/master_gold_miner wb 1
-tellraw @a {"text": " +5.0 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "Master Gold Miner", "color": "dark_purple"}, {"text": "\n"}, {"text": "Mine enough gold to make a stack of gold blocks", "color": "#C900C7"}, {"text": "\n\n"}, {"text": "Mining", "color": "gray", "italic": true}]}}

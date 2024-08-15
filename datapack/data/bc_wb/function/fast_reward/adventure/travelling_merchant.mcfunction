@@ -1,3 +1,3 @@
 worldborder add 1.0
 scoreboard players set blazeandcave:adventure/travelling_merchant wb 1
-tellraw @a {"text": " +0.5 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "Travelling Merchant", "color": "green"}, {"text": "\n"}, {"text": "Trade with a Wandering Trader", "color": "#49DB49"}, {"text": "\n\n"}, {"text": "Adventure", "color": "gray", "italic": true}]}}
+tellraw @a {"text": " +0.5 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"translate": "Travelling Merchant", "color": "green"}, {"text": "\n"}, {"translate": "Trade with a Wandering Trader", "color": "#49DB49"}, {"text": "\n\n"}, {"translate": "Adventure", "color": "gray", "italic": true}]}}

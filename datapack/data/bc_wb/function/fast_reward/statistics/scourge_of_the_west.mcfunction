@@ -1,3 +1,0 @@
-worldborder add 5.0
-scoreboard players set blazeandcave:statistics/scourge_of_the_west wb 1
-tellraw @a {"text": " +2.5 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "Scourge of the West", "color": "dark_purple"}, {"text": "\n"}, {"text": "Ride 50km on a horse", "color": "#C900C7"}, {"text": "\n\n"}, {"text": "Statistics", "color": "gray", "italic": true}]}}

@@ -1,3 +1,0 @@
-worldborder add 0.2
-scoreboard players set blazeandcave:redstone/electric_rails wb 1
-tellraw @a {"text": " +0.1 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "Electric Rails", "color": "green"}, {"text": "\n"}, {"text": "Making furnace minecarts completely useless", "color": "#49DB49"}, {"text": "\n\n"}, {"text": "Redstone", "color": "gray", "italic": true}]}}

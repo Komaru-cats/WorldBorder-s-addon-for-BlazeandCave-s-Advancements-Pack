@@ -1,3 +1,3 @@
 worldborder add 0.1
 scoreboard players set blazeandcave:farming/the_garbage_will_do wb 1
-tellraw @a {"text": " +0.05 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "The garbage will do!", "color": "green"}, {"text": "\n"}, {"text": "Craft a composter using wooden slabs then place it", "color": "#49DB49"}, {"text": "\n\n"}, {"text": "Farming", "color": "gray", "italic": true}]}}
+tellraw @a {"text": " +0.05 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"translate": "The garbage will do!", "color": "green"}, {"text": "\n"}, {"translate": "Craft a composter using wooden slabs then place it", "color": "#49DB49"}, {"text": "\n\n"}, {"translate": "Farming", "color": "gray", "italic": true}]}}

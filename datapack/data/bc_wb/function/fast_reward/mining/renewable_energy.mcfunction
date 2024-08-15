@@ -1,3 +1,0 @@
-worldborder add 0.2
-scoreboard players set blazeandcave:mining/renewable_energy wb 1
-tellraw @a {"text": " +0.1 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "Renewable Energy", "color": "green"}, {"text": "\n"}, {"text": "Smelt wood trunks using charcoal to make more charcoal", "color": "#49DB49"}, {"text": "\n\n"}, {"text": "Mining", "color": "gray", "italic": true}]}}

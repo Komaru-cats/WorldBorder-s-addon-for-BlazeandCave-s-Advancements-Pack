@@ -1,3 +1,0 @@
-worldborder add 0.2
-scoreboard players set blazeandcave:weaponry/shield_luck wb 1
-tellraw @a {"text": " +0.1 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "Shield Luck", "color": "green"}, {"text": "\n"}, {"text": "Protect yourself from an enemy's attack with your shield", "color": "#49DB49"}, {"text": "\n\n"}, {"text": "Weaponry", "color": "gray", "italic": true}]}}

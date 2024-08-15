@@ -1,3 +1,3 @@
 worldborder add 2.0
 scoreboard players set blazeandcave:enchanting/god_of_thunder wb 1
-tellraw @a {"text": " +1.0 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "God of Thunder", "color": "#75E1FF"}, {"text": "\n"}, {"text": "Name your Trident with Loyalty III and Channeling 'Mjolnir'", "color": "#63BDD7"}, {"text": "\n\n"}, {"text": "Enchanting", "color": "gray", "italic": true}]}}
+tellraw @a {"text": " +1.0 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"translate": "God of Thunder", "color": "#75E1FF"}, {"text": "\n"}, {"translate": "Name your Trident with Loyalty III and Channeling 'Mjolnir'", "color": "#63BDD7"}, {"text": "\n\n"}, {"translate": "Enchanting", "color": "gray", "italic": true}]}}

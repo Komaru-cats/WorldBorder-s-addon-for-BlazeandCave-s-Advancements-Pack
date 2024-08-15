@@ -1,3 +1,0 @@
-worldborder add 2.0
-scoreboard players set blazeandcave:weaponry/king_of_the_sea wb 1
-tellraw @a {"text": " +1.0 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "King of the Sea", "color": "dark_purple"}, {"text": "\n"}, {"text": "Kill a drowned using a trident from at least 30 metres", "color": "#C900C7"}, {"text": "\n\n"}, {"text": "Weaponry", "color": "gray", "italic": true}]}}

@@ -1,3 +1,3 @@
 worldborder add 1.0
 scoreboard players set blazeandcave:adventure/professional wb 1
-tellraw @a {"text": " +0.5 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "Professional", "color": "#75E1FF"}, {"text": "\n"}, {"text": "Trade with a villager at master level", "color": "#63BDD7"}, {"text": "\n\n"}, {"text": "Adventure", "color": "gray", "italic": true}]}}
+tellraw @a {"text": " +0.5 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"translate": "Professional", "color": "#75E1FF"}, {"text": "\n"}, {"translate": "Trade with a villager at master level", "color": "#63BDD7"}, {"text": "\n\n"}, {"translate": "Adventure", "color": "gray", "italic": true}]}}

@@ -1,3 +1,0 @@
-worldborder add 0.7
-scoreboard players set blazeandcave:redstone/the_block_of_eternal_screaming wb 1
-tellraw @a {"text": " +0.35 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "The Block of Eternal Screaming", "color": "#75E1FF"}, {"text": "\n"}, {"text": "Use Silk Touch to pick up a Sculk Shrieker", "color": "#63BDD7"}, {"text": "\n\n"}, {"text": "Redstone", "color": "gray", "italic": true}]}}

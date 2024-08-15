@@ -5,7 +5,6 @@ execute run advancement revoke @a everything
 execute run scoreboard objectives remove bac_obtained
 execute run scoreboard objectives add bac_obtained dummy
 execute run scoreboard players set is_wb_run wb 1
-execute run scoreboard players set wb_global_1 wb 1
 execute in minecraft:overworld run worldborder set 1
 execute run scoreboard players set first_time wb 1
 execute run tp @a[gamemode=!creative,gamemode=!spectator] ~ 321 ~

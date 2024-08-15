@@ -1,3 +1,3 @@
 worldborder add 0.1
 scoreboard players set blazeandcave:bacap/time_to_farm wb 1
-tellraw @a {"text": " +0.05 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "Time to Farm!", "color": "green"}, {"text": "\n"}, {"text": "Use planks and sticks to make a hoe", "color": "#49DB49"}, {"text": "\n\n"}, {"text": "BlazeandCave's Advancements", "color": "gray", "italic": true}]}}
+tellraw @a {"text": " +0.05 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"translate": "Time to Farm!", "color": "green"}, {"text": "\n"}, {"translate": "Use planks and sticks to make a hoe", "color": "#49DB49"}, {"text": "\n\n"}, {"translate": "BlazeandCave's Advancements", "color": "gray", "italic": true}]}}

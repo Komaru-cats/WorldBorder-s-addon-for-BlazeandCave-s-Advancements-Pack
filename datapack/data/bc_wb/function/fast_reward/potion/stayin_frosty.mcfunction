@@ -1,3 +1,0 @@
-worldborder add 0.4
-scoreboard players set blazeandcave:potion/stayin_frosty wb 1
-tellraw @a {"text": " +0.2 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "Stayin' Frosty", "color": "green"}, {"text": "\n"}, {"text": "Swim in lava while having the Fire Resistance effect", "color": "#49DB49"}, {"text": "\n\n"}, {"text": "Potion", "color": "gray", "italic": true}]}}

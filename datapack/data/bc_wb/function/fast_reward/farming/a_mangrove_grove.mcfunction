@@ -1,3 +1,3 @@
 worldborder add 1.0
 scoreboard players set blazeandcave:farming/a_mangrove_grove wb 1
-tellraw @a {"text": " +0.5 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"text": "A Mangrove Grove", "color": "#75E1FF"}, {"text": "\n"}, {"text": "Plant a Mangrove Propagule in a Grove biome", "color": "#63BDD7"}, {"text": "\n\n"}, {"text": "Farming", "color": "gray", "italic": true}]}}
+tellraw @a {"text": " +0.5 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"translate": "A Mangrove Grove", "color": "#75E1FF"}, {"text": "\n"}, {"translate": "Plant a Mangrove Propagule in a Grove biome", "color": "#63BDD7"}, {"text": "\n\n"}, {"translate": "Farming", "color": "gray", "italic": true}]}}
