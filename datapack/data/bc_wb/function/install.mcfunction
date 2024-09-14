@@ -8,13 +8,14 @@ execute in minecraft:the_nether run worldborder set 1
 execute in minecraft:the_end run worldborder center 0.5 0.5
 execute in minecraft:the_end run worldborder set 1
 function bc_wb:started/player_tp
-schedule function bc_wb:started/get_started_kit 8s
+scoreboard objectives setdisplay sidebar bac_advfirst
 function blazeandcave:config/coop_on
 scoreboard objectives add wb_play_time minecraft.custom:minecraft.play_time
 scoreboard objectives add wb_first dummy
 scoreboard players set wb_global_1 wb_first 0
 schedule function bc_wb:started/startmsgtimer 1s
 schedule function bc_wb:started/check_bac_msg 11s
+schedule function bc_wb:config/switch/bossbar_on 12s
 function bc_wb:started/check_bac
 scoreboard players set fast_wb wb_config 0
 worldborder damage buffer 1

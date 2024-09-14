@@ -1,5 +1,5 @@
-worldborder add 15.0 5
-scoreboard players set minecraft:nether/create_full_beacon wb 1
+worldborder add 40 20
+scoreboard players add minecraft:nether/create_full_beacon wb 1
 scoreboard players set is_wb_run wb 0
-schedule function bc_wb:untask 5s
-tellraw @a {"text": " +7.5 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"translate": "Beaconator", "color": "dark_purple"}, {"text": "\n"}, {"translate": "Bring a beacon to full power", "color": "#C900C7"}, {"text": "\n\n"}, {"translate": "Nether", "color": "gray", "italic": true}]}}
+schedule function bc_wb:untask 20
+tellraw @a {"text": " +20 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"translate": "Beaconator", "color": "dark_purple"}, {"text": "\n"}, {"translate": "Bring a beacon to full power", "color": "#C900C7"}, {"text": "\n\n"}, {"translate": "Nether", "color": "gray", "italic": true}]}}
