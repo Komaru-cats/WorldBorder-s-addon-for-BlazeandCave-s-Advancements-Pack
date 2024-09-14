@@ -1,5 +1,5 @@
-worldborder add 0.3 1
-scoreboard players set minecraft:adventure/summon_iron_golem wb 1
+worldborder add 10 5
+scoreboard players add minecraft:adventure/summon_iron_golem wb 1
 scoreboard players set is_wb_run wb 0
-schedule function bc_wb:untask 1s
-tellraw @a {"text": " +0.15 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"translate": "Hired Help", "color": "#75E1FF"}, {"text": "\n"}, {"translate": "Summon an Iron Golem to help defend a village", "color": "#63BDD7"}, {"text": "\n\n"}, {"translate": "Adventure", "color": "gray", "italic": true}]}}
+schedule function bc_wb:untask 5
+tellraw @a {"text": " +5 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"translate": "Hired Help", "color": "#75E1FF"}, {"text": "\n"}, {"translate": "Summon an Iron Golem to help defend a village", "color": "#63BDD7"}, {"text": "\n\n"}, {"translate": "Adventure", "color": "gray", "italic": true}]}}
