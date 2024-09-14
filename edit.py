@@ -1,4 +1,4 @@
-import json, os, csv
+import json, os
 from collections import defaultdict
 
 border = defaultdict(lambda:[])
