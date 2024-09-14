@@ -1,7 +1,8 @@
 import json, os, csv
 from collections import defaultdict
 
-tiers = defaultdict(lambda:[])
+border = defaultdict(lambda:[])
+tiers = {'none': 1, 'goal': 5, 'challenge': 20}
 
 for root in ['minecraft', 'blazeandcave']:
     folder_path = f'bac/data/{root}/advancement'
@@ -22,11 +23,11 @@ for root in ['minecraft', 'blazeandcave']:
                         data = json.load(f)
                         display_name = data['display']['title']['translate']
                         tier = data['display'].get('frame','none')
-                        tiers[true_name] = tier
+                        border[true_name] = tiers[tier]
                     except json.decoder.JSONDecodeError:
-                        tiers[true_name] = 'none'
+                        border[true_name] = tiers['none']
             except KeyError:
                 display_name = "NOT AN ADVANCEMENT"
 
-print(tiers)
-print(tiers.get('blazeandcave:weaponry/there_it_goes'))
+print(border)
+print(border.get('blazeandcave:weaponry/there_it_goes'))
