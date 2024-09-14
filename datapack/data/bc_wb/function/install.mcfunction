@@ -15,7 +15,7 @@ scoreboard objectives add wb_first dummy
 scoreboard players set wb_global_1 wb_first 0
 schedule function bc_wb:started/startmsgtimer 1s
 schedule function bc_wb:started/check_bac_msg 11s
-schedule function bc_wb:config/switch/bossbar_on 20s
+schedule function bc_wb:config/switch/bossbar_on 12s
 function bc_wb:started/check_bac
 scoreboard players set fast_wb wb_config 0
 worldborder damage buffer 1
