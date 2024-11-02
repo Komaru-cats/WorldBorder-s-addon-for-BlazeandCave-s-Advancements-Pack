@@ -1,0 +1,3 @@
+worldborder add 0.3
+scoreboard players set bacaped:statistics/jungle_gymnast wb 1
+tellraw @a {"text": " +0.15 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"translate": "Jungle Gymnast", "color": "green"}, {"text": "\n"}, {"translate": "Climb 100m", "color": "#49DB49"}, {"text": "\n\n"}, {"translate": "Statistics", "color": "gray", "italic": true}]}}

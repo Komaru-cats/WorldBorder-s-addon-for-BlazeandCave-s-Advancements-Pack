@@ -1,0 +1,3 @@
+worldborder add 0.3
+scoreboard players set blazeandcave:end/shouldnt_my_shield_levitate_too wb 1
+tellraw @a {"text": " +0.15 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"translate": "Shouldn't my shield levitate too?", "color": "green"}, {"text": "\n"}, {"translate": "Block a Shulker's bullet with your shield", "color": "#49DB49"}, {"text": "\n\n"}, {"translate": "End", "color": "gray", "italic": true}]}}

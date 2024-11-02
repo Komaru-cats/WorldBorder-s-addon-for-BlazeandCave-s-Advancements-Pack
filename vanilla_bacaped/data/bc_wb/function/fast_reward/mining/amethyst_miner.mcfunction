@@ -1,0 +1,3 @@
+worldborder add 25.0
+scoreboard players set blazeandcave:mining/amethyst_miner wb 1
+tellraw @a {"text": " +12.5 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"translate": "Amethyst Miner", "color": "dark_purple"}, {"text": "\n"}, {"translate": "Mine a stack of Amethyst Blocks, Amethyst Clusters, and every size of Amethyst Bud", "color": "#C900C7"}, {"text": "\n\n"}, {"translate": "Mining", "color": "gray", "italic": true}]}}

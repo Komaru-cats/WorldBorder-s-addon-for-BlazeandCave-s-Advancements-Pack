@@ -1,0 +1,3 @@
+worldborder add 0.5
+scoreboard players set blazeandcave:building/cerulean wb 1
+tellraw @a {"text": " +0.25 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"translate": "Cerulean!", "color": "green"}, {"text": "\n"}, {"translate": "Light up the area with soul fire torches and soul fire lanterns!", "color": "#49DB49"}, {"text": "\n\n"}, {"translate": "Building", "color": "gray", "italic": true}]}}

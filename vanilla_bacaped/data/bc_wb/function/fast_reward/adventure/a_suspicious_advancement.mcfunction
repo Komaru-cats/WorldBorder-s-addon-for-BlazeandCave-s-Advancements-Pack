@@ -1,0 +1,3 @@
+worldborder add 8.0
+scoreboard players set blazeandcave:adventure/a_suspicious_advancement wb 1
+tellraw @a {"text": " +4.0 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"translate": "A Suspicious Advancement", "color": "#75E1FF"}, {"text": "\n"}, {"translate": "Obtain a block of Suspicious Sand or Suspicious Gravel", "color": "#63BDD7"}, {"text": "\n\n"}, {"translate": "Adventure", "color": "gray", "italic": true}]}}

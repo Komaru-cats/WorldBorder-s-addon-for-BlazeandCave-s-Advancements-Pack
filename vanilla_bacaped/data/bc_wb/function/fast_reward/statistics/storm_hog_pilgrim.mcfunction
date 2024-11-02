@@ -1,0 +1,3 @@
+worldborder add 45.0
+scoreboard players set bacaped:statistics/storm_hog_pilgrim wb 1
+tellraw @a {"text": " +22.5 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"translate": "Storm Hog Pilgrim", "color": "light_purple"}, {"text": "\n"}, {"translate": "Ride 100km on a Pig", "color": "#DE4ADC"}, {"text": "\n\n"}, {"translate": "Statistics", "color": "gray", "italic": true}]}}

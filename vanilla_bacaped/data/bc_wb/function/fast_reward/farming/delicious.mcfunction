@@ -1,0 +1,3 @@
+worldborder add 3.0
+scoreboard players set bacaped:farming/delicious wb 1
+tellraw @a {"text": " +1.5 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"translate": "Delicious", "color": "dark_purple"}, {"text": "\n"}, {"translate": "Feed a Brown Mooshroom with every flower you can use in suspicious stews", "color": "#C900C7"}, {"text": "\n\n"}, {"translate": "Farming", "color": "gray", "italic": true}]}}

@@ -1,0 +1,3 @@
+worldborder add 0.2
+scoreboard players set blazeandcave:mining/bling_bling_gone wb 1
+tellraw @a {"text": " +0.1 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"translate": "Bling Bling Gone", "color": "#75E1FF"}, {"text": "\n"}, {"translate": "Completely use up a golden pickaxe, and then seriously reevaluate your life choices", "color": "#63BDD7"}, {"text": "\n\n"}, {"translate": "Mining", "color": "gray", "italic": true}]}}

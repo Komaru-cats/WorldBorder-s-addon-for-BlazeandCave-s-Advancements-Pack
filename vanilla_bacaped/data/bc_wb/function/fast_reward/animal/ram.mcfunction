@@ -1,0 +1,3 @@
+worldborder add 0.2
+scoreboard players set blazeandcave:animal/ram wb 1
+tellraw @a {"text": " +0.1 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"translate": "Ram", "color": "green"}, {"text": "\n"}, {"translate": "Obtain a Goat’s Horn by having one ram into a block", "color": "#49DB49"}, {"text": "\n\n"}, {"translate": "Animal", "color": "gray", "italic": true}]}}

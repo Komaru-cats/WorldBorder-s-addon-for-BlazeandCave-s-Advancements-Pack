@@ -1,0 +1,3 @@
+worldborder add 25.0
+scoreboard players set bacaped:challenges/piggish_poison_tango wb 1
+tellraw @a {"text": " +12.5 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"translate": "Piggish Poison Tango", "color": "#FF2A2A"}, {"text": "\n"}, {"translate": "Kill a Warden with an empty inventory with effects of poison, nausea and hunger sitting on a Pig", "color": "#DC2727"}, {"text": "\n\n"}, {"translate": "Challenges", "color": "gray", "italic": true}]}}

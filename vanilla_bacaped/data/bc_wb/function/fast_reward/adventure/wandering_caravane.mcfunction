@@ -1,0 +1,3 @@
+worldborder add 0.5
+scoreboard players set bacaped:adventure/wandering_caravane wb 1
+tellraw @a {"text": " +0.25 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"translate": "Wandering Caravane", "color": "#75E1FF"}, {"text": "\n"}, {"translate": "Leash a Boat with a Wandering Trader and Trader Llama inside", "color": "#63BDD7"}, {"text": "\n\n"}, {"translate": "Adventure", "color": "gray", "italic": true}]}}

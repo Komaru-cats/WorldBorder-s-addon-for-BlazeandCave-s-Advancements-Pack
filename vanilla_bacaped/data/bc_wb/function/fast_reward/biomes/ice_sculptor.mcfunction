@@ -1,0 +1,3 @@
+worldborder add 3.0
+scoreboard players set bacaped:biomes/ice_sculptor wb 1
+tellraw @a {"text": " +1.5 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"translate": "Ice Sculptor", "color": "#75E1FF"}, {"text": "\n"}, {"translate": "Place 200 blocks of blue ice", "color": "#63BDD7"}, {"text": "\n\n"}, {"translate": "Biomes", "color": "gray", "italic": true}]}}

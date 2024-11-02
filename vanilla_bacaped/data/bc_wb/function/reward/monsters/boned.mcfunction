@@ -1,0 +1,1 @@
+execute run scoreboard players set blazeandcave:monsters/boned wb 1
