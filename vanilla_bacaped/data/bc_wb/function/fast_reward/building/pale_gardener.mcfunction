@@ -1,0 +1,3 @@
+worldborder add 3.5
+scoreboard players set blazeandcave:building/pale_gardener wb 1
+tellraw @a {"text": " +1.75 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"translate": "Pale Gardener", "color": "#75E1FF"}, {"text": "\n"}, {"translate": "Craft every item made out of pale oak wood", "color": "#63BDD7"}, {"text": "\n\n"}, {"translate": "Building", "color": "gray", "italic": true}]}}
