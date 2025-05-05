@@ -1,3 +1,3 @@
 worldborder add 45.0
 scoreboard players set blazeandcave:challenges/dragon_army wb 1
-tellraw @a {"text": " +22.5 Blocks", "color": "#B2FFEE", "hoverEvent": {"action": "show_text", "contents": ["", {"translate": "Dragon Army", "color": "#FF2A2A"}, {"text": "\n"}, {"translate": "Obtain a stack of Ender Dragon Heads", "color": "#DC2727"}, {"text": "\n\n"}, {"translate": "Challenges", "color": "gray", "italic": true}]}}
+tellraw @a {"text": " +22.5 Blocks", "color": "#B2FFEE", "hover_event": {"action": "show_text", "value": [{"translate": "Dragon Army", "color": "#FF2A2A"}, {"text": "\n"}, {"translate": "Obtain a stack of Ender Dragon Heads", "color": "#DC2727"}, {"text": "\n\n"}, {"translate": "Challenges", "color": "gray", "italic": true}]}}
