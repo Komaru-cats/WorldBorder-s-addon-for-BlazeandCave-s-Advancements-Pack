@@ -1,1 +1,0 @@
-execute run scoreboard players set is_wb_run wb 1
