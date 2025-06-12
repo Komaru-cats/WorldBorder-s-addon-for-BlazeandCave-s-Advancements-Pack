@@ -19,4 +19,6 @@ This addon adds an extra challenge to your world by limiting exploration until y
 
 ## Warning: the World Border of the world will become 1 block and the players will be teleported
 
+### If you have any questions, bugs, suggestions you can [create an issue on github](https://github.com/Komaru-cats/WB-Addon-for-BACAP/issues) or [join our discord server](https://discord.gg/j9VKsyXPhz)
+</p> 
 Created by _Fedor_F, ItzSkyReed, Hogurt
